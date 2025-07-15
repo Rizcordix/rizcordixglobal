@@ -2,10 +2,10 @@ import Count from '@/src/common/count';
 import React from 'react';
 
 const counter_content = [
-    {id: 1, count: 560, title: "Total Services", symbol: "",},
-    {id: 2, count: 100, title: "Client Satisfiction", symbol: "%",},
-    {id: 3, count: 3, title: "Monthly Revinew", symbol: "m+",},
-    {id: 4, count: 30, title: "Years Experince", symbol: "+",},
+    {id: 1, count: 45, title: "Total Services", symbol: "",},
+    {id: 2, count: 98, title: "Client Satisfiction", symbol: "%",},
+    {id: 3, count: 30, title: "Monthly Reviews", symbol: "+",},
+    {id: 4, count: 7, title: "Years Experince", symbol: "+",},
 ]
 
 

@@ -9,9 +9,9 @@ import EmailAeroplan from '@/src/svg/email-aeroplan';
 import SocialLinks, { CopyRight } from '@/src/common/social-links';
 
 const footer_content = { 
-    contact_us: <> Contact us at <span>@Themepure.com </span></>,
-    mail: "@themepure.gmail.com",
-    contact_text: "PERFECT SOLUTION From  It Advisor",
+    contact_us: <> Contact us at <span>@RizcordixGlobal.com </span></>,
+    mail: "info@rizcordixglobal.com",
+    contact_text: "PERFECT SOLUTION From our Advisor",
     phone: "92 666 888 0000",
     info: <>The world’s first and largest digital market for crypto collectibles and non-fungible (NFTs). Buy</>,
     map: "https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1",

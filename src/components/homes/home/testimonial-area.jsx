@@ -5,9 +5,9 @@ import LineArrowTwo from '@/src/svg/line-arrow-2';
 
 import shape_img from "@assets/img/testimonial/shape-1.png";
 import bg_img from "@assets/img/testimonial/testimonial-bg.jpg";
-import  user_1 from "@assets/img/testimonial/user-1.jpg";
-import  user_2 from "@assets/img/testimonial/user-2.jpg";
-import  user_3 from "@assets/img/testimonial/user-3.jpg"; 
+import user_1 from "@assets/img/testimonial/user-1.jpg";
+import user_2 from "@assets/img/testimonial/user-2.jpg";
+import user_3 from "@assets/img/testimonial/user-3.jpg"; 
 import Image from 'next/image';
 
 const setting =  {
@@ -31,69 +31,51 @@ const setting =  {
         '0': {
             slidesPerView:1,
         },
-        },
     }
+}
 
 const testimonial_data = [
     {
         id: 1, 
         avatar: user_1,
         name: "Cameron Williamson",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br />
-        men who are so beguiled and demoraliz <br />
-        worlds ed by the charms of </>,
+        title: "Founder & CEO",
+        description: <>The team at Rizcordix exceeded expectations with their innovative <br /> designs and fast delivery. They truly bring your ideas to life.</>,
     },
     {
         id: 2, 
         avatar: user_2,
         name: "Leslie Alexander",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
+        title: "Creative Director",
+        description: <>I have worked with Rizcordix for several years. Their ability to <br /> transform concepts into stunning visuals is unmatched in the industry.</>,
     },
     {
         id: 3, 
         avatar: user_3,
         name: "Savannah Nguyen",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
+        title: "Project Manager",
+        description: <>The level of professionalism and creativity Rizcordix offers is <br /> outstanding. Their designs are always fresh and unique to every project.</>,
     },
     {
         id: 4, 
         avatar: user_1,
         name: "Cameron Williamson",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
+        title: "Founder & CEO",
+        description: <>Rizcordix not only provided exceptional design work but also <br /> helped shape our brand strategy, taking our business to the next level.</>,
      },
     {
         id: 5, 
         avatar: user_2,
         name: "Leslie Alexander",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
+        title: "Creative Director",
+        description: <>The creativity and attention to detail in every project they <br /> take on makes Rizcordix a trusted partner for all our design needs.</>,
     },
     {
         id: 6, 
         avatar: user_3,
         name: "Savannah Nguyen",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
+        title: "Project Manager",
+        description: <>Rizcordix's team delivered on time with exceptional design work <br /> that aligned perfectly with our vision. A truly creative and reliable agency.</>,
     },
 ]
 
@@ -113,11 +95,6 @@ const TestimonialArea = () => {
                <div className="row">
                   <div className="col-lg-12">
                      <div className="tp-testimonial-title-wrapper text-center">
-                        <span className="tp-section-title__pre">
-                           Client’s <span className="title-pre-color">Feedback
-                           </span>
-                           <AngleArrow /> 
-                        </span>
                         <h3 className="tp-section-title">All Professional <span className="title-color">Testimonial</span>
                            & Feedback
                            <span className="title-center-shape"> 
@@ -130,7 +107,7 @@ const TestimonialArea = () => {
                      <div className="testimonial-active swiper-container">
                         <Swiper {...setting}>
                             {testimonial_data.map((item, i)  => 
-                                    <SwiperSlide key={i} className="tp-testimonial-item text-center mb-30">
+                                <SwiperSlide key={i} className="tp-testimonial-item text-center mb-30">
                                     <div className="tp-testimonial-item-inner">
                                         <div className="tp-testimonial-quot">
                                             <span>
@@ -165,7 +142,7 @@ const TestimonialArea = () => {
                                         <h4 className="testimonial-title">{item.name}</h4>
                                         <p>{item.title}</p>
                                     </div>
-                                    </SwiperSlide> 
+                                </SwiperSlide> 
                             )}
                         </Swiper> 
 

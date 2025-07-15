@@ -1,50 +1,67 @@
-
 // import img here 
 import service_img_1 from "@assets/img/services/services-1.jpg";
 import service_img_2 from "@assets/img/services/services-2.jpg";
 import service_img_3 from "@assets/img/services/services-3.jpg";
 import service_img_4 from "@assets/img/services/services-4.jpg";
+// import service_img_5 from "@assets/img/services/services-5.jpg"; // Add more images if required
 
 const service_data = [
     {
         id: 1, 
-        alphabet: "P",
-        title: <>Product <br /> development</>,
+        alphabet: "C",
+        title: <>Creative & <br /> Content Writing</>,
         img: service_img_1,
-        description: <>As far as we might be concerned making an extraordinary As the complexity as </>,        
-
+        description: <>We craft content to engage your audience and boost your digital presence.</>,        
     },
     {
         id: 2, 
-        alphabet: "V",
-        title: <>Voice Over <br /> Internet Protocol</>,
+        alphabet: "B",
+        title: <>Branding & <br /> Merchandising</>,
         img: service_img_2,
-        description: <>As far as we might be concerned making an extraordinary As the complexity as </>,       
-
+        description: <>Our branding defines your identity, from logo design to packaging that fits your vision.</>,        
     },
     {
         id: 3, 
-        alphabet: "C",
-        title: <>Clouds <br /> Backup Services</>,
+        alphabet: "U",
+        title: <>UI/UX Design & <br /> Web Development</>,
         img: service_img_3,
-        description: <>As far as we might be concerned making an extraordinary As the complexity as </>,        
-
+        description: <>We design intuitive interfaces and develop user-friendly, high-performance sites.</>,        
     },
     {
         id: 4, 
-        alphabet: "M",
-        title: <>Mobile and <br /> Remote Networking</>,
+        alphabet: "A",
+        title: <>App Design & <br /> Development</>,
         img: service_img_4,
-        description: <>As far as we might be concerned making an extraordinary As the complexity as </>,        
-
+        description: <>We build high-performance mobile apps, ensuring great design and experience.</>,        
     },
     {
         id: 5, 
-        alphabet: "D",
-        title: <>Data Backup <br /> and Restoration</>,
+        alphabet: "G",
+        title: <>Graphics & <br /> Illustration Design</>,
         img: service_img_2,
-        description: <>As far as we might be concerned making an extraordinary As the complexity as </>,        
-
+        description: <>We deliver graphic design and illustrations that communicate your message.</>,        
+    },
+    {
+        id: 6, 
+        alphabet: "A",
+        title: <>Animation & <br /> Video Editing</>,
+        img: service_img_3,
+        description: <>Our animation and video editing bring ideas to life and engage your audience.</>,        
+    },
+    {
+        id: 7, 
+        alphabet: "D",
+        title: <>Data Backup & <br /> Cloud Solutions</>,
+        img: service_img_4,
+        description: <>We offer reliable cloud and backup to protect your business information.</>,        
+    },
+    {
+        id: 8, 
+        alphabet: "W",
+        title: <>Web Design & <br /> E-commerce Solutions</>,
+        img: service_img_4,
+        description: <>Responsive web and e-commerce solutions designed for seamless experiences</>,        
     },
 ]
-export default service_data
+
+export default service_data;
