@@ -4,7 +4,7 @@ import Count from "@/src/common/count";
 const counter_data = [
   {
     id: 1,
-    count: 560,
+    count: 45,
     text: "Total Services",
     symbol: "",
     border: "tp-counter-border",
@@ -18,14 +18,14 @@ const counter_data = [
   },
   {
     id: 3,
-    count: 3,
+    count: 30,
     text: "Monthly Review",
-    symbol: "m+",
+    symbol: "+",
     border: "tp-counter-border",
   },
   {
     id: 4,
-    count: 30,
+    count: 7,
     text: "Years Experince",
     symbol: "+",
     border: "",

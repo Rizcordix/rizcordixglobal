@@ -19,19 +19,31 @@ const feature_content = {
             id: 1,
             img: feature_img_1,
             title: "Our mission",
-            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+             description: (
+        <>
+          To empower brands through<br /> creative design, writing, and innovation.
+        </>
+      ),
         },
         {
             id: 2,
             img: feature_img_2,
             title: "About History",
-            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+           description: (
+        <>
+          A journey shaped by impactful<br /> content and standout visual experiences.
+        </>
+      ),
         },
         {
             id: 3,
             img: feature_img_3,
             title: "Our Partners",
-            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+           description: (
+        <>
+          Trusted by forward-thinking clients<br /> who value design and originality.
+        </>
+      ),
         },
     ],
     
@@ -52,21 +64,16 @@ const FeatureArea = ({about}) => {
                <div className="row align-items-center">
                   <div className="col-lg-6">
                      <div className="tp-feature-title-wrapper">
-                        <span className="tp-section-title__pre">
-                           feature <span className="title-pre-color">IT Solutions</span>
-                           <AngleArrow />
-                        </span>
-                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">38 Years</span>
+                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">7 Years</span>
                            <span className="title-right-shape"> 
-                              <LineArrowFive />
+                            <LineArrowFive />
                            </span>
                         </h3>
                      </div>
                   </div>
                   <div className="col-lg-6">
                      <div className="tp-feature-wrapper p-relative">
-                        <p>As the complexity of buildings to increase, the field of architecture <br />
-                         became multi-disciplinary with technological expertise.</p>
+                        <p>As creative needs continue to grow, the design industry became <br/> highly diverse with digital, visual, and content expertise.</p>
                      </div>
                   </div>
                </div>
@@ -88,9 +95,13 @@ const FeatureArea = ({about}) => {
                                 <div className="tp-feature-item-content">
                                     <h3 className="feature-title">
                                         <Link href="/about">{item.title}</Link>
-                                    <span> 
-                                        <AngleArrow />                                
-                                    </span>
+                                    <span style={{
+                                        display: 'block',
+                                        width: '40%',
+                                        height: '2px',
+                                        backgroundColor: '#05DAC3',
+                                        marginTop: '5px'
+                                    }} />
                                     </h3>
                                     <p>{item.description}</p>
                                 </div>

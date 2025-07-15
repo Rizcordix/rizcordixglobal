@@ -6,7 +6,7 @@ const LineArrowFive = () => {
       <svg
         width="153"
         height="5"
-        viewBox="0 0 153 5"
+        viewBox="30 0 153 5"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

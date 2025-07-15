@@ -13,13 +13,13 @@ import support_img_3 from "@assets/img/about/home-3/img-3.jpg";
 import support_shape from "@assets/img/about/home-3/shape-1.png";
 
 const support_contact = {
-   sub_title_1: "We’ve been stay",
-   sub_title_2: " 38 years",
-   info: <>Our company provides a full range of services for the <br /> construction of private houses and cottages since 19</>,
-   lists: [
-      <>series of manual and semi-manual activities.</>,
-      <>Construction is different from other industries.</>,
-      <>Construction is different from other industries.</>,
+   sub_title_1: "We’ve been here for",
+   sub_title_2: " 7 years",
+   info: <>We deliver innovative digital, design, and content solutions <br /> to help businesses grow and stand out in a competitive world.</>,
+    lists: [
+      <>Crafting compelling content and persuasive brand stories.</>,
+      <>Designing stunning visuals, illustrations, and user experiences.</>,
+      <>Developing modern websites, mobile apps, and digital platforms.</>,
    ]
    
 }
@@ -35,10 +35,6 @@ const SupportArea = ()  => {
             <div className="row">
                <div className="col-lg-6">
                   <div className="tp-fun-fact-title-wrapper support-breadcrumb">
-                     <span className="tp-section-title__pre">
-                        service <span className="title-pre-color">IT Solutions</span>
-                        <AngleArrow /> 
-                     </span>
                      <h3 className="tp-section-title">
                         {sub_title_1}
                         <span className="title-color">

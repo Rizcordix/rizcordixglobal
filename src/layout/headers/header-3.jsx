@@ -1,7 +1,7 @@
 import useSticky from '@/src/hooks/use-sticky';
 import Link from 'next/link';
 import React, {useEffect, useRef, useState} from 'react';
-import NavMenu from './nav-menu';
+import NavMenu from './nav-menu1';
 import Logo from "@assets/img/logo/footer-logo.png";
 import Image from 'next/image';
 import Sidebar from '@/src/modals/sidebar';
@@ -100,7 +100,7 @@ const HeaderThree = () => {
                             </div>
                             </div>
                             <div className="col-xl-8 d-none d-xl-block">
-                                <div className="d-flex align-items-center justify-content-center">
+                                <div className="d-flex align-items-center justify-content-center" >
                                 <div className="tp-main-menu menu-icon">
                                     <nav id="tp-mobile-menu">
                                         <NavMenu />                                        
