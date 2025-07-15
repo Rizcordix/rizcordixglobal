@@ -36,6 +36,7 @@ const HeaderOne = () => {
 
     return (
         <>
+        
             <header className="tp-header-area tp-header-height p-relative">
                <div className="tp-header-top tp-header-space d-none d-xl-block">
                   <div className="container-fluid">
@@ -59,17 +60,7 @@ const HeaderOne = () => {
                                        <div className="tp-header-lang-img">
                                           <Image src={LangLogo} alt="theme-pure" />
                                        </div>
-                                       <div className="tp-header-lang">
-                                          <span className="tp-header-lang-selected-lang tp-lang-toggle" 
-                                          id="tp-header-lang-toggle" 
-                                          ref={langToggleRef}>English</span>
-                                           
-                                          <ul className={`tp-header-lang-list tp-lang-list ${isLangListOpen ? 'tp-lang-list-open' : ''}`}>
-                                             <li>Spanish</li>
-                                             <li>English</li>
-                                             <li>Canada</li>
-                                          </ul>
-                                       </div>
+                                       
                                     </div>
                                  </li>
                               </ul>
@@ -123,9 +114,7 @@ const HeaderOne = () => {
                            </div>
                            <div className="col-xxl-3 col-xl-3">
                            <div className="tp-header-main-right d-flex align-items-center justify-content-xl-end">
-                              <div className="tp-header-search search-open-btn d-none d-xxl-block">
-                                 <button onClick={() => setSearchOpen(true)}><i className="fa-regular fa-magnifying-glass"></i></button>
-                              </div>
+                              
                                  <div className="tp-header-btn d-none d-xl-block pl-40">
                                     <Link className="tp-btn" href="/contact">Get Started Today</Link>
                                  </div>
@@ -136,7 +125,6 @@ const HeaderOne = () => {
                   </div>
                </div>
             </header>
-            <SearchPopup searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
             <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
         </>
     );

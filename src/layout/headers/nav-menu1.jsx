@@ -9,7 +9,7 @@ const NavMenu = () => {
         {menu_data.map((menu_item, i) => (
           <li key={i} className={`${menu_item?.has_dropdown && "has-dropdown"}`}>
             <Link href={menu_item.link}>
-              <span>{menu_item.title}</span>
+              <span style={{ color: '#fff' }}>{menu_item.title}</span>
             </Link>
             {menu_item.has_dropdown && (
               <ul className="submenu"> 
