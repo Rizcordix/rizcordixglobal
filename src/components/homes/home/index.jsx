@@ -23,7 +23,6 @@ const HomeOne = () => {
         <HeroArea />
         <CounterArea />
         <AboutArea />
-        <FeatureArea />
         <ServiceArea />
         <BrandArea />
         <SupportArea />

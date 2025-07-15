@@ -22,7 +22,7 @@ import about_img_10 from "@assets/img/business/shape-5.png";
 
 const AboutArea = ({about}) => {
     const percentage = 80;
-    const percentage2 = 75;
+    const percentage2 = 95;
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
     return (

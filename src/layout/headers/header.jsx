@@ -55,14 +55,6 @@ const HeaderOne = () => {
                                        <i className="fa-solid fa-envelope"></i></span>technix@support.com
                                     </a>
                                  </li>
-                                 <li>
-                                    <div className="tp-header-lang-wrapper d-flex align-items-center">
-                                       <div className="tp-header-lang-img">
-                                          <Image src={LangLogo} alt="theme-pure" />
-                                       </div>
-                                       
-                                    </div>
-                                 </li>
                               </ul>
                            </div>
                         </div>

@@ -16,10 +16,6 @@ const BlogArea = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                             <div className="tp-blog-title-wrapper">
-                                <span className="tp-section-title__pre">
-                                    Upcoming <span className="title-pre-color">News</span>
-                                    <AngleArrow /> 
-                                </span>
                                 <h3 className="tp-section-title">Recent Blog & News in <span className="title-color">Company</span>
                                     <span className="title-right-shape"> 
                                         <LineArrowThree />
