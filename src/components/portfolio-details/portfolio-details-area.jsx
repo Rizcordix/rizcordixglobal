@@ -47,7 +47,7 @@ const portfolio_detaisl_contact = {
     reprehenderit in voluptate velit esse cillum dolore eu fugiat. There are many variations of passages.</>,
     title_2: <>This event will allow participants to:</>,
     list_title: [
-        <>Business's managers, leaders</>,
+        <>Business&apos;s managers, leaders</>,
         <>Downloadable lectures, code and design assets for all projects</>,
         <>Anyone who is finding a chance to get the promotion</>,
     ]
