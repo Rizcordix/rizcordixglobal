@@ -13,7 +13,7 @@ const team_details_contact = {
     member_info: <>Bangladesh / Age : 32 years</>,
     description: <>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
     in some form, by injected humour, or randomised wo look even slightly believable. If you are going to use
-    a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle
+    a passage of Lorem Ipsum, you need to be sure there isn&apos;t anything embarrassing hidden in the middle
     Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first 
     combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reas
     characteristic words etc.</>,
