@@ -21,7 +21,7 @@ import about_img_10 from "@assets/img/business/shape-5.png";
 
 
 const AboutArea = ({about}) => {
-    const percentage = 50;
+    const percentage = 80;
     const percentage2 = 75;
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
@@ -69,16 +69,13 @@ const AboutArea = ({about}) => {
                     <div className="col-lg-6">
                         <div className="tp-about-3-wrapper">
                             <div className="tp-about-3-title-wrapper"> 
-                                <span className="tp-section-title__pre">
-                                    about <span className="title-pre-color">IT Solutions</span>
-                                    <AngleArrow /> 
-                                </span>
+                                
                                 <h3 className="tp-section-title">
-                                    Best Digital <span className="title-color">Technology</span> <br /> Agency For People
+                                    Transforming Ideas <span className="title-color">Into</span> <br /> Digital Experiences
                                 </h3> 
                             </div>
                             <p className="text">
-                                Transmax is the world’s driving worldwide coordinations supplier — we <br /> uphold industry and exchange the worldwide trade of merchandise <br /> through land transport.
+                                We are a full-service digital technology agency dedicated to helping businesses thrive in the digital landscape. With our blend of creativity and technical expertise, we craft solutions that engage audiences and drive results.
                             </p>
                             <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
                             <div className="tp-about-3-progressbar d-flex align-items-center">
@@ -91,7 +88,7 @@ const AboutArea = ({about}) => {
                                     />
                                 </div>
                                 <div className="tp-about-3-progressbar-title">
-                                    <p>Business <br /> Strategy Growth</p>
+                                    <p>Client <br /> Retention Rate</p>
                                 </div>
                             </div>
                             <div className="tp-about-3-progressbar d-flex align-items-center">
@@ -103,7 +100,7 @@ const AboutArea = ({about}) => {
                                     />
                                 </div>
                                 <div className="tp-about-3-progressbar-title">
-                                    <p>Health Valuable <br /> Ideas</p>
+                                    <p>Project Success<br /> Rate</p>
                                 </div>
                             </div>
                             </div>
@@ -112,15 +109,6 @@ const AboutArea = ({about}) => {
                                 <Link className="tp-btn" href="/about">Our History 
                                     <i className="fa-regular fa-arrow-right-long"></i>
                                 </Link>
-                            </div>
-                            <div className="tp-about-3-year">
-                                <p>
-                                    BRENDON GARREY
-                                    <br />
-                                    <span>
-                                        mayor, since 21st Oct , 2019
-                                    </span>
-                                </p>
                             </div>
                             </div>
                         </div>
