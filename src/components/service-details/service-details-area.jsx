@@ -20,15 +20,15 @@ const service_details_content = {
         {id: 8, title: "Web Design & E-commerce Solutions"},
     ],
     title: <>Digital Marketing</>,
-    description: <>We offer comprehensive digital marketing strategies designed to increase your brand's online presence. Our services include SEO, social media marketing, and PPC management, all aimed at helping your business grow.</>,
+    description: <>We offer comprehensive digital marketing strategies designed to increase your brand&apos;s online presence. Our services include SEO, social media marketing, and PPC management, all aimed at helping your business grow.</>,
     title_2: <>Why Marketing is Important?</>,
-    description_2: <>Digital marketing allows you to reach a larger audience, build customer trust, and measure the impact of your campaigns. It is crucial for businesses to stay competitive and relevant in today's digital landscape.</>,
+    description_2: <>Digital marketing allows you to reach a larger audience, build customer trust, and measure the impact of your campaigns. It is crucial for businesses to stay competitive and relevant in today&apos;s digital landscape.</>,
     feture_list: [
         <>Research beyond the business plan</>,
         <>Marketing options and rates</>,
         <>Consulting turnaround ability</>,
     ],
-    description_3: <>Marketing is essential for any business looking to thrive in a competitive environment. Our digital marketing strategies are designed to increase brand visibility, engage customers, and drive measurable results. Whether it's content marketing, SEO, or social media management, we have the expertise to help your business succeed online.</>,
+    description_3: <>Marketing is essential for any business looking to thrive in a competitive environment. Our digital marketing strategies are designed to increase brand visibility, engage customers, and drive measurable results. Whether it&apos;s content marketing, SEO, or social media management, we have the expertise to help your business succeed online.</>,
 }
 
 const {service_details_tab, title, description, title_2, description_2, feture_list, description_3} = service_details_content;

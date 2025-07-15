@@ -59,7 +59,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                         <MobileMenus />
                     </div>
                     <div className="offcanvas__popup">
-                        <p>Design and creativity aren't just professions — they're how we bring smart, impactful ideas to life across digital platforms.</p>
+                        <p>Design and creativity aren&apos;t just professions — they&apos;re how we bring smart, impactful ideas to life across digital platforms.</p>
                         <div className="offcanvas__popup-gallery">
                             <h4 className="offcanvas__title">Gallery</h4>
                             {images.map((item, i) => 

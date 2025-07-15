@@ -1,7 +1,7 @@
 const accordion = [
   {
     id: 1,
-    question: <>How can I improve my website's content strategy?</>,
+    question: <>How can I improve my website&apos;s content strategy?</>,
     answer: <>We help you create a robust content strategy tailored to your business. From blog posts to social media content, we ensure that your content is engaging, SEO-friendly, and aligned with your target audience’s needs.</>,
     accordion_id: "One", 
     collapsed: "",
