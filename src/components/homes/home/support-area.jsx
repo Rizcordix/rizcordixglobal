@@ -6,27 +6,27 @@ import React from 'react';
 const support_content = [
     {
         id: 1, 
-        count: 8, 
-        symbol: "hr",
+        count: 7, 
+        symbol: "yr",
         cls: "fadeLeft",
-        title: "Quick Result",
-        info: <>Average time to resolve <br /> cyber attack.</>
+        title: "Creative Solutions",
+        info: <>Time taken to deliver <br /> creative content and designs.</>
     },
     {
         id: 2, 
-        count: 3, 
-        symbol: "hr",
+        count: 20, 
+        symbol: "+",
         cls: "",
-        title: "Quick Reply",
-        info: <>Average time to resolve <br /> cyber attack.</>
+        title: "Expert Team",
+        info: <>Our team members bring <br /> years of experience in design.</>
     },
     {
         id: 3, 
-        count: 94, 
+        count: 50, 
         symbol: "%",
         cls: "fadeRight",
-        title: "Quick Response",
-        info: <>Calling answered within <br /> 15 seconds.</>
+        title: "Successful Projects",
+        info: <>Projects completed with <br /> exceptional client satisfaction.</>
     },
 ]
 
