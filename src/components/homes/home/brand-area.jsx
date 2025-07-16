@@ -2,14 +2,14 @@ import Image from 'next/image';
 import React, { useRef } from 'react';
 
 
-import shape_1 from "@assets/img/brand/img-2.png";
-import shape_2 from "@assets/img/brand/img-3.png";
-import shape_3 from "@assets/img/brand/img-4.png";
-import shape_4 from "@assets/img/brand/img-5.png";
-import shape_5 from "@assets/img/brand/img-6.png";
-import shape_6 from "@assets/img/brand/img-7.png";
-import shape_7 from "@assets/img/brand/img-8.png";
-import shape_8 from "@assets/img/brand/img-9.png"; 
+import shape_1 from "@assets/img/brand/adobe.png";
+import shape_2 from "@assets/img/brand/php.png";
+import shape_3 from "@assets/img/brand/react_native.png";
+import shape_4 from "@assets/img/brand/python.png";
+import shape_5 from "@assets/img/brand/figma.png";
+import shape_6 from "@assets/img/brand/node_js.png";
+import shape_7 from "@assets/img/brand/flutter.png";
+import shape_8 from "@assets/img/brand/wordpress.png"; 
 import shape_9 from "@assets/img/brand/shape-3.png"; 
 
 import brand_thumb from "@assets/img/brand/img-1.png"; 

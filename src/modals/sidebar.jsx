@@ -3,7 +3,7 @@ import Image from 'next/image';
 import ImagePopup from './ImagePopup';
 import React, { useState } from 'react';
 
-import Logo from "@assets/img/logo/logo.png";
+import Logo from "@assets/img/logo/logo2.png";
 import sidebar_img_1 from "@assets/img/portfolio/img-1.jpg";
 import sidebar_img_2 from "@assets/img/portfolio/img-2.jpg";
 import sidebar_img_3 from "@assets/img/portfolio/img-3.jpg";
@@ -78,7 +78,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                             <i className="fa-sharp fa-solid fa-location-dot"></i>
                             </div>
                             <div className="offcanvas__contact-content-content">
-                            <a href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">86 Road Broklyn Street, 600 </a>
+                            <a href="https://maps.app.goo.gl/rnc4sH3kp3DWT6nV8">184 High St N, London E6</a>
                             </div>
                         </div>
                         <div className="offcanvas__contact-content d-flex">
@@ -86,7 +86,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                             <i className="fa-solid fa-envelope"></i>
                             </div>
                             <div className="offcanvas__contact-content-content">
-                            <a href="mailto:needhelp@company.com">Needhelp@company.com  </a>
+                            <a href="mailto:info@rizcordixglobal.com">info@rizcordixglobal.com  </a>
                             </div>
                         </div>
                         <div className="offcanvas__contact-content d-flex">
@@ -94,7 +94,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                             <i className="fa-solid fa-phone"></i>
                             </div>
                             <div className="offcanvas__contact-content-content">
-                            <a href="tel:01310-069824"> +92 666 888 0000</a>
+                            <a href="tel:01310-069824"> +44 161 818 6442</a>
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                         <a className="icon facebook" href="#"><i className="fab fa-facebook-f"></i></a>
                         <a className="icon twitter" href="#"><i className="fab fa-twitter"></i></a>
                         <a className="icon youtube" href="#"><i className="fab fa-youtube"></i></a>
-                        <a className="icon linkedin" href="#"><i className="fab fa-linkedin"></i></a>
+                        <a className="icon linkedin" href="https://www.linkedin.com/company/rizcordix"><i className="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 </div>

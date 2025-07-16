@@ -8,7 +8,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import HomeIcon from '@/src/svg/home-icon';
 import SearchPopup from '@/src/modals/search-popup';
 import Sidebar from '@/src/modals/sidebar';
-import Logo from "@assets/img/logo/logo.png";
+import Logo from "@assets/img/logo/logo2.png";
 
 const HeaderOne = () => {
    const {sticky}  =  useSticky()
@@ -45,14 +45,14 @@ const HeaderOne = () => {
                            <div className="tp-header-top-info">
                               <ul>
                                  <li>
-                                    <a href="https://www.google.com/maps/@36.0758266,-79.4558848,17z" 
+                                    <a href="https://maps.app.goo.gl/rnc4sH3kp3DWT6nV8" 
                                     target="_blank"><span>
                                        <i className="fa-sharp fa-solid fa-location-dot"></i>
-                                       </span>734 H, Bryan Burlington, NC 27215</a>
+                                       </span>184 High St N, London E6, UK</a>
                                  </li>
                                  <li>
-                                    <a href="mailto:technix@support.com"><span>
-                                       <i className="fa-solid fa-envelope"></i></span>technix@support.com
+                                    <a href="mailto:info@rizcordixglobal.com"><span>
+                                       <i className="fa-solid fa-envelope"></i></span>info@rizcordixglobal.com
                                     </a>
                                  </li>
                               </ul>
@@ -61,12 +61,12 @@ const HeaderOne = () => {
                         <div className="col-xxl-6 col-xl-4">
                            <div className="tp-header-top-right d-flex justify-content-end align-items-center">
                               <div className="header-call">
-                                 <a href="tel:01310-069824"><i className="fa-solid fa-phone"></i> +88 01310-069824</a>
+                                 <a href="tel:+44 161 818 6442"><i className="fa-solid fa-phone"></i> +44 161 818 6442</a>
                               </div>
                               <div className="header-social d-xxl-block d-none">
                                  <Link href="#"><i className="fa-brands fa-facebook"></i> Facebook</Link>
-                                 <Link href="#"><i className="fa-brands fa-twitter"></i> Skype</Link>
-                                 <Link href="#"><i className="fa-brands fa-linkedin"></i> Linkedin</Link>
+                                 <Link href="#"><i className="fa-brands fa-instagram"></i> Instagram</Link>
+                                 <Link href="https://www.linkedin.com/company/rizcordix"><i className="fa-brands fa-linkedin"></i> Linkedin</Link>
                               </div>
                            </div>
                         </div>

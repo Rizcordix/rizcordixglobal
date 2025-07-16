@@ -69,7 +69,7 @@ const HeroArea = () => {
                               <a href="mailto:Contact@gmail.com"><i className="fa-light fa-envelope"></i> Contact@gmail.com</a>
                            </div>
                            <div className="tp-hero-2-message">
-                              <p><i className="fa-solid fa-comments"></i> 734 H, Bryan Burlington, NC 27215 </p>
+                              <p><i className="fa-solid fa-comments"></i>184 High St N, London E6, UK</p>
                            </div>
                         </div>
                      </div>

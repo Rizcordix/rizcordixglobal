@@ -32,7 +32,7 @@ const FooterContact = ({bg_style, contact_style}) => {
                                     </div>
                                     <div className="tp-cta-4-content">
                                         <p>PERFECT SOLUTION From  <span>our Advisor</span></p>
-                                        <a href="tel:9266688000">+92 666 888 0000</a>
+                                        <a href="tel:9266688000">+44 161 818 6442</a>
                                     </div>
                                 </div>
                             </div>

@@ -8980,6 +8980,8 @@ div.demo img {
   bottom: 60px;
   left: 38%;
   z-index: 1;
+  height: 142px;
+  width: 142px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-brand-shape .shape-1 {
@@ -9014,6 +9016,8 @@ div.demo img {
   bottom: 145px;
   left: 29%;
   z-index: 1;
+  height: 127px;
+  width: 127px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-brand-shape .shape-2 {
@@ -9058,6 +9062,8 @@ div.demo img {
   .tp-brand-shape .shape-3 {
     bottom: 43%;
     left: 20%;
+    height: 142px;
+    width: 142px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -9093,6 +9099,8 @@ div.demo img {
   top: 20%;
   left: 34%;
   z-index: 1;
+  height: 138px;
+  width: 138px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-brand-shape .shape-4 {
@@ -9134,6 +9142,8 @@ div.demo img {
   top: 7%;
   left: 47%;
   z-index: 1;
+  height: 138px;
+  width: 138px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-brand-shape .shape-5 {
@@ -9156,6 +9166,8 @@ div.demo img {
   right: 31%;
   top: 20%;
   z-index: 1;
+  height: 164px;
+  width: 164px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-brand-shape .shape-6 {
@@ -9194,6 +9206,8 @@ div.demo img {
   right: 22%;
   top: 44%;
   z-index: 1;
+  height: 144px;
+  width: 144px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-brand-shape .shape-7 {
@@ -9231,6 +9245,8 @@ div.demo img {
   right: 27%;
   bottom: 13%;
   z-index: 1;
+  height: 133px;
+  width: 133px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-brand-shape .shape-8 {

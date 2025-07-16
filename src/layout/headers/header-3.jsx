@@ -2,7 +2,7 @@ import useSticky from '@/src/hooks/use-sticky';
 import Link from 'next/link';
 import React, {useEffect, useRef, useState} from 'react';
 import NavMenu from './nav-menu1';
-import Logo from "@assets/img/logo/footer-logo.png";
+import Logo from "@assets/img/logo/logo1.png";
 import Image from 'next/image';
 import Sidebar from '@/src/modals/sidebar';
 import call_icon from '@assets/img/icon/call.svg';
@@ -64,13 +64,13 @@ const HeaderThree = () => {
                                 </div>
                                 <ul>
                                 <li>
-                                    <Link href="https://www.google.com/maps/@36.0758266,-79.4558848,17z" target="_blank">
+                                    <Link href="https://maps.app.goo.gl/rnc4sH3kp3DWT6nV8" target="_blank">
                                         <span><i className="fa-sharp fa-solid fa-location-dot"></i></span>
-                                        734 H, Bryan Burlington, NC 27215
+                                        184 High St N, London E6, UK
                                     </Link>
                                 </li>
                                 <li>
-                                    <a href="mailto:technix@support.com"><span><i className="fa-solid fa-envelope"></i></span>technix@support.com</a>
+                                    <a href="mailto:info@rizcordixglobal.com"><span><i className="fa-solid fa-envelope"></i></span>info@rizcordixglobal.com</a>
                                 </li>
                                 </ul>
                             </div>
