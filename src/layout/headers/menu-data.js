@@ -4,22 +4,17 @@ const menu_data = [
   {
     id: 1,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     home_icon: <HomeIcon />,
     title: "Home",
     link: "/",
     active: "",
-    sub_menus: [ 
-      { link: "/", title: "Home 1" },
-      { link: "/home-2", title: "Home 2" },
-      { link: "/home-3", title: "Home 3" }, 
-    ],
   },
   {
     id: 2,
     mega_menu: false,
     has_dropdown: false,
-    title: "Company",
+    title: "About",
     link: "/about",
     active: "",
   },   
@@ -38,17 +33,10 @@ const menu_data = [
   {
     id: 4,
     mega_menu: false,
-    has_dropdown: true,
-    title: "Pages",
-    link: "/about",
+    has_dropdown: false,
+    title: "Portfolio",
+    link: "/portfolio",
     active: "",
-    sub_menus: [
-      { link: "/portfolio", title: "Portfolio" },
-      { link: "/portfolio-details", title: "Portfolio Details" },
-      { link: "/team", title: "Team" }, 
-      { link: "/team-details", title: "Team Details" },
-      { link: "/404", title: "404" }, 
-    ],
   },
 
   {
