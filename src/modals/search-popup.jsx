@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Logo from "@assets/img/logo/footer-logo.png";
+import Logo from "@assets/img/logo/logo1.png";
 import Image from 'next/image';
 
 const SearchPopup = ({searchOpen, setSearchOpen}) => {

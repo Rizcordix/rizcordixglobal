@@ -2,16 +2,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import footer_logo from "@assets/img/logo/footer-logo.png";
+import footer_logo from "@assets/img/logo/logo1.png";
 import SocialLinks, { CopyRight } from '@/src/common/social-links';
 import EmailAeroplan from '@/src/svg/email-aeroplan';
 const footer_contact = {
     bg_img: "assets/img/footer/footer-bg.jpg",
-    footer_info: <>The world’s first and largest digital marketplace <br />for crypto collectibles and non-fungible tokens (NFTs). Buy</>,
-    map_link: "https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1",
-    address: <>86 Road Broklyn Street, 600 <br /> New York, USA</>,
-    mail: "needhelp@company.com",
-    phone: "+92 666 888 0000",
+    footer_info: <>Rizcordix Global Pvt Ltd is a premier digital service provider, specializing in creative and innovative solutions across design, development, and branding.</>,
+    map_link: "https://maps.app.goo.gl/rnc4sH3kp3DWT6nV8",
+    address: <>184 High St N<br /> London E6, UK</>,
+    mail: "info@rizcordixglobal.com",
+    phone: "+44 161 818 6442",
     service_links: [
         {title: "Parking permission", link: "#"},
         {title: "Fire Service Noc", link: "#"},
@@ -19,9 +19,17 @@ const footer_contact = {
         {title: "Residential Parking", link: "#"},
         {title: "Vendor Registration", link: "#"},
         {title: "City Board Applications", link: "#"},
-    ]
+    ],
+    footer_nav: [
+        {title: "Home", link: "/"},
+        {title: "About Rizcordix", link: "/about"},
+        {title: "Our Services", link: "/service"},
+        {title: "Portfolio", link: "/portfolio"},
+        {title: "Blogs", link: "/blog"},
+        {title: "Contact Us", link: "/contact"},
+    ],
 }
-const {bg_img, footer_info, map_link, address, mail, phone, service_links} = footer_contact
+const {bg_img, footer_info, map_link, address, mail, phone, service_links, footer_nav} = footer_contact
 
 const FooterThree = () => {
     return (
@@ -57,10 +65,10 @@ const FooterThree = () => {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="tp-footer-widget tp-footer-3-col-2">
-                                <h3 className="tp-footer-widget-title">Services Req</h3>
+                                <h3 className="tp-footer-widget-title">Pages</h3>
                                 <div className="tp-footer-widget-content">
                                     <ul>
-                                        {service_links.map((item, i) => <li key={i}><Link href={item.link}>{item.title}</Link></li>)} 
+                                        {footer_nav.map((item, i) => <li key={i}><Link href={item.link}>{item.title}</Link></li>)} 
                                     </ul>
                                 </div>
                             </div> 
