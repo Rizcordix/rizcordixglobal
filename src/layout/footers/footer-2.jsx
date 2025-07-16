@@ -5,7 +5,7 @@ import EmailAeroplan from '@/src/svg/email-aeroplan';
 import SocialLinks from '@/src/common/social-links';
 
 import  footer_shape_1 from "@assets/img/footer/shape-1.png";
-import  footer_logo from "@assets/img/logo/footer-logo.png";
+import  footer_logo from "@assets/img/logo/logo1.png";
 
 
 const footer_two_content = {
@@ -20,17 +20,17 @@ const footer_two_content = {
     google_map: "https://www.google.com/maps/place/254+Lillian+Blvd,+Holbrook,+NY+11741,+USA/@40.7937446,-73.0774993,17z/data=!3m1!4b1!4m5!3m4!1s0x89e8483b469d706f:0xa6841f8aafc2ef19!8m2!3d40.7937446!4d-73.0753106",
     about_us: <>The world’s first and largest digital marketplace <br /> for crypto collectibles and non-fungible tokens (NFTs). Buy</>,
     address: " 254 Lillian Blvd, Holbrook",
-    phone: "1-800-654-3210",
-    email: "needhelp@company.com",
+    phone: "+44 161 818 6442",
+    email: "info@rizcordixglobal.com",
     footer_nav: [
         {title: "Home", link: "/"},
-        {title: "Company", link: "/"},
+        {title: "Company", link: "/about"},
         {title: "services", link: "/service"},
-        {title: "Resources", link: "#"},
-        {title: "Shop", link: "#"},
+        {title: "Portfolio", link: "/portfolio"},
+        {title: "Blog", link: "/blog"},
         {title: "contact", link: "/contact"},
     ],
-    mobile: "+88 1900 6789 56",
+    mobile: "+44 161 818 6442",
 
 
 }
@@ -71,7 +71,7 @@ const FooterTwo = () => {
                         </div>
                         <div className="col-xl-4 col-lg-3 col-md-6">
                             <div className="tp-footer-widget tp-footer-2-col-2">
-                                <h3 className="tp-footer-widget-title">Services Req</h3>
+                                <h3 className="tp-footer-widget-title">Pages</h3>
                                 <div className="tp-footer-widget-content">
                                     <ul>{footer_widget.map((item, i) => <li key={i}><Link href="#">{item}</Link></li>)}</ul>
                                 </div>

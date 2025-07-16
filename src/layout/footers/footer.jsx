@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import headphone from "@assets/img/footer/headphone.png";
-import footer_logo from "@assets/img/logo/footer-logo.png";
+import footer_logo from "@assets/img/logo/logo1.png";
 import user from "@assets/img/footer/user.png";
 import EmailAeroplan from '@/src/svg/email-aeroplan';
 import SocialLinks, { CopyRight } from '@/src/common/social-links';
@@ -13,11 +13,11 @@ const footer_content = {
     mail: "info@rizcordixglobal.com",
     contact_text: "PERFECT SOLUTION From our Advisor",
     phone: "92 666 888 0000",
-    info: <>The world’s first and largest digital market for crypto collectibles and non-fungible (NFTs). Buy</>,
-    map: "https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1",
-    address: <>86 Road Broklyn Street, 600 <br /> New York, USA</>,
-    mail_2: "needhelp@company.com",
-    mail_phone: <> Needhelp@company.com <br /> +92 666 888 0000</>,
+    info: <>Rizcordix Global Pvt Ltd is a premier digital service provider, specializing in creative and innovative solutions across design, development, and branding.</>,
+    map: "https://maps.app.goo.gl/rnc4sH3kp3DWT6nV8",
+    address: <>184 High St N<br /> London E6, UK</>,
+    mail_2: "info@rizcordixglobal.com",
+    mail_phone: <> info@rizcordixglobal.com <br /> +44 161 818 6442</>,
 
 
     service_links: [
@@ -27,12 +27,20 @@ const footer_content = {
         "Residential Parking",
         "Vendor Registration",
         "City Board Applications",
-    ]
+    ],
+    footer_nav: [
+        {title: "Home", link: "/"},
+        {title: "About Rizcordix", link: "/about"},
+        {title: "Our Services", link: "/service"},
+        {title: "Portfolio", link: "/portfolio"},
+        {title: "Blogs", link: "/blog"},
+        {title: "Contact Us", link: "/contact"},
+    ],
 
 
 
 }
-const {contact_us, mail, contact_text, phone, info, map, address, mail_2, mail_phone, service_links} = footer_content
+const {contact_us, mail, contact_text, phone, info, map, address, mail_2, mail_phone, service_links, footer_nav} = footer_content
 
 
 const Footer = () => {
@@ -60,7 +68,7 @@ const Footer = () => {
                                         </div>
                                         <div className="tp-footer-top-right-content">
                                             <p>{contact_text}</p>
-                                            <a href={`tel:${phone}`}>+92 666 888 0000</a>
+                                            <a href={`tel:${phone}`}>+44 161 818 6442</a>
                                         </div>
                                     </div>
                                 </div>
@@ -93,11 +101,14 @@ const Footer = () => {
                             </div>
                             <div className="col-xl-3 col-lg-4 col-md-6">
                                 <div className="tp-footer-widget tp-footer-col-2">
-                                <h3 className="tp-footer-widget-title">Services Req</h3>
+                                <h3 className="tp-footer-widget-title">Pages</h3>
                                 <div className="tp-footer-widget-content">
                                     <ul>
-                                        {service_links.map((link, i) => <li key={i}><Link href="#">{link}</Link></li>)} 
+                                        {footer_nav.map((item, i) => (
+                                            <li key={i}><Link href={item.link}>{item.title}</Link></li>
+                                        ))}
                                     </ul>
+
                                 </div>
                                 </div> 
                             </div>

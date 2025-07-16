@@ -18,9 +18,9 @@ const social_links = [
     icon: "fa-brands fa-instagram", 
   }, 
   {
-    link: "https://www.pinterest.com",
+    link: "https://www.youtube.com",
     target: "_blank",
-    icon: "fa-brands fa-pinterest", 
+    icon: "fa-brands fa-youtube", 
   },
 ];
 
@@ -49,7 +49,7 @@ export default SocialLinks;
 
 
 const copy_right_text = {
-  copy_right: <>© Copyright <span>©{new Date().getFullYear()}</span> Themepure. All Rights Reserved </>,
+  copy_right: <>© Copyright <span>©{new Date().getFullYear()}</span> Rizcordix Global Pvt Ltd. All Rights Reserved </>,
 }
 const {copy_right}  = copy_right_text
 
@@ -72,12 +72,12 @@ const social_links_two = [
     icon: "fab fa-facebook-f", 
   },
   {
-    link: "http://twitter.com",
+    link: "http://instagram.com",
     target: "_blank",
-    icon: "fab fa-twitter",  
+    icon: "fab fa-instagram",  
   },
   {
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/company/rizcordix",
     target: "_blank",
     icon: "fab fa-linkedin-in", 
   }, 
