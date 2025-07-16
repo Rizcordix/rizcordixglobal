@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
-import icon1 from "@assets/img/icon/icon-1.png";
-import icon2 from "@assets/img/icon/icon-1.png"; // Using the same image for now
-import icon3 from "@assets/img/icon/icon-1.png"; // Using the same image for now
-import icon4 from "@assets/img/icon/icon-1.png"; // Using the same image for now
-import icon5 from "@assets/img/icon/icon-1.png"; // Using the same image for now
-import icon6 from "@assets/img/icon/icon-1.png"; // Using the same image for now
+import icon1 from "@assets/img/icon/Creative-Content-Writing.png";
+import icon2 from "@assets/img/icon/Branding.png"; // Using the same image for now
+import icon3 from "@assets/img/icon/uiux.png"; // Using the same image for now
+import icon4 from "@assets/img/icon/App-Design-&-Development.png"; // Using the same image for now
+import icon5 from "@assets/img/icon/Animation-&-Video-Editing.png"; // Using the same image for now
+import icon6 from "@assets/img/icon/graphic-design.png"; // Using the same image for now
 import Image from 'next/image';
 import Slider from "react-slick";
 
