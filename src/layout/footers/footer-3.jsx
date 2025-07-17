@@ -106,8 +106,8 @@ const FooterThree = () => {
                         </div>
                         <div className="col-md-12 col-lg-6">
                             <div className="tp-footer-copyright-inner text-lg-end">
-                                <Link href="#">Terms and conditions</Link>
-                                <Link className="ml-50" href="#"> Privacy policy</Link>
+                                <Link href="/terms">Terms and conditions</Link>
+                                <Link className="ml-50" href="/privacypolicy"> Privacy policy</Link>
                             </div>
                         </div>
                         </div>

@@ -60,7 +60,7 @@ const HeaderThree = () => {
                             <div className="tp-header-3-top-info d-flex">
                                 <div className="tp-header-3-top-call d-flex">
                                 <span>Call</span>
-                                <p>Consult With It Advisor? <a href="#">Click Now</a></p>
+                                <p>Consult With IT Advisor? <a href="#">Click Now</a></p>
                                 </div>
                                 <ul>
                                 <li>
@@ -117,7 +117,7 @@ const HeaderThree = () => {
                                             <Image src={call_icon} alt="theme-pure" />
                                         </div>
                                         <div className="tp-header-3-phone-content">
-                                            <span>Phone: <br /> <a href="tel:01900678956">+88 1900 6789 56</a></span>
+                                            <span>Phone: <br /> <a href="tel:+441618186442">+44 161 818 6442</a></span>
                                         </div>
                                     </div>
                                     <div className="tp-header-3-hamburger-btn offcanvas-open-btn" onClick={() => setSidebarOpen(true)}>
