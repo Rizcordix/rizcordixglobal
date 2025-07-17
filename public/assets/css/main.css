@@ -5733,16 +5733,17 @@ div.demo img {
   padding-right: 35px;
 }
 .tp-footer-text-email input::placeholder {
-  color: #B4B4B4;
+  color: #fff;
 }
 .tp-footer-text-email input:focus {
-  color: var(--tp-common-white);
+  color: #fff;
   border-bottom: 1px solid #fff;
 }
 .tp-footer-text-email span {
   position: absolute;
   top: 12px;
   right: 2px;
+  color: #fff;
 }
 .tp-footer-form-check {
   margin-bottom: 30px;
@@ -13297,6 +13298,12 @@ div.demo img {
   line-height: 28px;
   color: #5A627D;
   margin-bottom: 0;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 /*# sourceMappingURL=main.css.map */
