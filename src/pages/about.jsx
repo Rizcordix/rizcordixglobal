@@ -1,5 +1,5 @@
 import SEO from "../common/seo";
-import HomeOne from "../components/homes/home";
+import About from "../components/about";
 import Wrapper from "../layout/wrapper";
 
 const AboutUs = () => {
@@ -30,7 +30,7 @@ const AboutUs = () => {
         {/* Meta for Longtail Keywords */}
         <meta name="keywords" content={longTailKeywords} />
       </SEO>
-      <HomeOne />
+      <About />
     </Wrapper>
   );
 };

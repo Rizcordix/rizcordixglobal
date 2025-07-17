@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -44,6 +44,49 @@ const {contact_us, mail, contact_text, phone, info, map, address, mail_2, mail_p
 
 
 const Footer = () => {
+        const [isLoading, setIsLoading] = useState(false);
+        const [successMessage, setSuccessMessage] = useState(false);
+
+        // Function to handle form submission
+    const submitForm = () => {
+        const email = document.getElementById("email").value;
+        const termsAgreed = document.getElementById("flexCheckChecked").checked;
+
+        if (!email || !termsAgreed) {
+            alert("Please enter a valid email and agree to the terms.");
+            return;
+        }
+
+        setIsLoading(true); // Show the loading spinner
+
+        // Create the payload for the POST request
+        const data = new FormData();
+        data.append('email', email);
+
+        // Sending the email to the Google Sheets script
+        fetch("https://script.google.com/macros/s/AKfycbyncEwjhPHJBpPMtP_JzPOmF6ejlQGFEh9d8QYIgq4FQZHakzkCY0K6dxOzFK3LmtVkZw/exec", {
+            method: 'POST',
+            body: data
+        })
+            .then(response => response.text())
+            .then(responseText => {
+                setIsLoading(false); // Hide the loading spinner
+                if (responseText === "Success") {
+                    setSuccessMessage(true); // Show success message
+                    setTimeout(() => {
+                        setSuccessMessage(false); // Optionally hide success message after some time
+                    }, 5000); // Hide after 5 seconds
+                } else {
+                    alert("There was an error. Please try again.");
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("There was an error. Please try again.");
+                setIsLoading(false);
+            });
+    };
+
     return (
         <>
             <footer className="tp-footer-area p-relative">
@@ -137,22 +180,40 @@ const Footer = () => {
                                 <div className="tp-footer-widget tp-footer-col-4">
                                 <h3 className="tp-footer-widget-title">Newsletter</h3>
                                 <div className="tp-footer-from">
-                                    <div className="tp-footer-text-email p-relative">
-                                        <input type="text" placeholder="Enter Email Address" />
-                                        <span> 
-                                            <EmailAeroplan />
-                                        </span>
+                                        <div className="tp-footer-text-email p-relative">
+                                            <input type="email" id="email" placeholder="Enter Email Address" required />
+                                            <span>
+                                                {isLoading ? (
+                                                    <div 
+                                                        className="loading-spinner" 
+                                                        style={{
+                                                            width: '20px',
+                                                            height: '20px',
+                                                            border: '2px solid rgba(255, 255, 255, 0.3)',
+                                                            borderTop: '2px solid white',
+                                                            borderRadius: '50%',
+                                                            animation: 'spin 1s linear infinite'
+                                                        }}
+                                                    ></div>
+                                                ) : (
+                                                    <button id="submitButton" type="button" onClick={submitForm}>
+                                                        <EmailAeroplan />
+                                                    </button>
+                                                )}
+                                            </span>
+                                        </div>
+                                        <div className="tp-footer-form-check">
+                                            <input className="form-check-input" id="flexCheckChecked" type="checkbox" required />
+                                            <label className="form-check-label" htmlFor="flexCheckChecked">
+                                                I agree to all your terms and policies
+                                            </label>
+                                        </div>
+
+                                        {successMessage && <div id="successMessage" style={{ color: "white" }}>Success! You&apos;ve been subscribed.</div>}
                                     </div>
-                                    <div className="tp-footer-form-check">
-                                        <input className="form-check-input" id="flexCheckChecked" type="checkbox" />
-                                        <label className="form-check-label" htmlFor="flexCheckChecked">
-                                            I agree to all your terms and policies
-                                        </label>
-                                </div>
+                                
                                 <div className="tp-footer-widget-social">
                                     <SocialLinks /> 
-
-                                </div>
                                 </div>
                             </div>
                             </div>
