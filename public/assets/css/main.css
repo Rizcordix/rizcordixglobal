@@ -1,9 +1,5 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Technix - Technology & IT Solutions HTML Template
-    Author: Theme_Pure
-    Support: help.themepure.net
-    Description: Technix - Technology & IT Solutions HTML Template
     Version: 1.0
 
 -----------------------------------------------------------------------------------
@@ -2261,6 +2257,9 @@ div.demo img {
 }
 .offcanvas__social .icon.linkedin {
   background-color: #0072b1;
+}
+.offcanvas__social .icon.instagram {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 .offcanvas__social .icon:hover {
   transform: translateY(-8px);
@@ -9057,13 +9056,13 @@ div.demo img {
   bottom: 41%;
   left: 23%;
   z-index: 1;
+  height: 142px;
+  width: 142px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-brand-shape .shape-3 {
     bottom: 43%;
     left: 20%;
-    height: 142px;
-    width: 142px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -9301,6 +9300,7 @@ div.demo img {
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-brand-thumb img {
     max-width: 100%;
+    display: none;
   }
 }
 .tp-brand-2-area {

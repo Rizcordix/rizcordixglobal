@@ -8,7 +8,7 @@ import cta_call from "@assets/img/icon/call.svg";
 const cta_content = {
     bg_img: "/assets/img/services/home-3/service-bg.png",
     title: <>We’re Ready to Growth <br /> IT Business</>,
-    phone: "+88 1900 6789 56",
+    phone: "+44 161 818 6442",
 }
 const {bg_img, title, phone} = cta_content
 

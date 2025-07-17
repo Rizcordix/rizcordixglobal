@@ -124,10 +124,11 @@ const Footer = () => {
                                             <span>Chat With Expert <br /> Active Now</span>
                                         </div>
                                     </div>
+                                    <h3 className="tp-footer-widget-title">Portfolios</h3>
                                     <ul>
-                                        <li><Link href="#">Parking permission</Link></li>
-                                        <li><Link href="#">Fire Service Noc</Link></li>
-                                        <li><Link href="#">Report a Parking Violation</Link></li>
+                                        <li><Link href="/content_portfolio">Content Writing</Link></li>
+                                        <li><Link href="/branding_portfolio">Branding and Marketing</Link></li>
+                                        <li><Link href="/graphic_portfolio">Graphic Designing</Link></li>
                                     </ul>
                                 </div>
                                 </div>
@@ -167,8 +168,8 @@ const Footer = () => {
                             </div>
                             <div className="col-md-12 col-lg-6">
                                 <div className="tp-footer-copyright-inner text-lg-end">
-                                <Link href="#">Terms and conditions</Link>
-                                <Link className="ml-50" href="#"> Privacy policy</Link>
+                                <Link href="/terms">Terms and conditions</Link>
+                                <Link className="ml-50" href="/privacypolicy"> Privacy policy</Link>
                                 </div>
                             </div>
                         </div>

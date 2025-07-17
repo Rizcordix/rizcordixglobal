@@ -64,9 +64,9 @@ const HeaderOne = () => {
                                  <a href="tel:+44 161 818 6442"><i className="fa-solid fa-phone"></i> +44 161 818 6442</a>
                               </div>
                               <div className="header-social d-xxl-block d-none">
-                                 <Link href="#"><i className="fa-brands fa-facebook"></i> Facebook</Link>
-                                 <Link href="#"><i className="fa-brands fa-instagram"></i> Instagram</Link>
-                                 <Link href="https://www.linkedin.com/company/rizcordix"><i className="fa-brands fa-linkedin"></i> Linkedin</Link>
+                                 <Link href="https://www.facebook.com/profile.php?id=61561262167701" target='_blank'><i className="fa-brands fa-facebook"></i> Facebook</Link>
+                                 <Link href="https://www.instagram.com/rizcordix_global/" target='_blank'><i className="fa-brands fa-instagram"></i> Instagram</Link>
+                                 <Link href="https://www.linkedin.com/company/rizcordix" target='_blank'><i className="fa-brands fa-linkedin"></i> Linkedin</Link>
                               </div>
                            </div>
                         </div>
