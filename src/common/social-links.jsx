@@ -3,17 +3,17 @@ import Link from "next/link";
 
 const social_links = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/profile.php?id=61561262167701",
     target: "_blank",
     icon: "fab fa-facebook-f", 
   },
   {
-    link: "http://twitter.com",
+    link: "https://www.linkedin.com/company/rizcordix",
     target: "_blank",
-    icon: "fab fa-twitter", 
+    icon: "fab fa-linkedin", 
   },
   {
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/rizcordix_global/",
     target: "_blank",
     icon: "fa-brands fa-instagram", 
   }, 
@@ -67,14 +67,14 @@ export const CopyRight = ()  => {
 // home 03 social link data
 const social_links_two = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/profile.php?id=61561262167701",
     target: "_blank",
     icon: "fab fa-facebook-f", 
   },
   {
-    link: "http://instagram.com",
+    link: "https://www.instagram.com/rizcordix_global/",
     target: "_blank",
-    icon: "fab fa-instagram",  
+    icon: "fa-brands fa-instagram",  
   },
   {
     link: "https://www.linkedin.com/company/rizcordix",

@@ -36,9 +36,9 @@ const HeaderTwo = () => {
                                  <Link target='_blank' href="https://www.google.com/maps/place/Taco+Bell/@33.9694034,-112.7228178,17z/data=!3m1!4b1!4m6!3m5!1s0x80d34e9ca49e9761:0x8b141f1593605d2a!8m2!3d33.9694034!4d-112.7206291!16s%2Fg%2F1tdwkssz"><i className="fa-sharp fa-solid fa-location-dot"></i> 684 West College St. Sun City, USA</Link>
                               </div>
                               <div className="header-social d-xxl-block d-none">
-                                 <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                                 <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                 <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                 <a href="https://www.facebook.com/profile.php?id=61561262167701" target='_blank'><i className="fa-brands fa-facebook-f"></i></a>
+                                 <a href="https://www.linkedin.com/company/rizcordix" target='_blank'><i className="fa-brands fa-linkedin"></i></a>
+                                 <a href="https://www.instagram.com/rizcordix_global/" target='_blank'><i className="fa-brands fa-instagram"></i></a>
                                  <a href="#"><i className="fa-brands fa-youtube"></i></a>
                               </div>
                            </div>
@@ -77,7 +77,7 @@ const HeaderTwo = () => {
                                           <i className="fa-solid fa-phone"></i>
                                        </div>
                                        <div className="tp-header-2-phone-content">
-                                          <span>Phone: <br /> <a href="tel:01900678956">+88 1900 6789 56</a></span>
+                                          <span>Phone: <br /> <a href="tel:+441618186442">+44 161 818 6442</a></span>
                                        </div>
                                     </div>
                                     <div className="tp-header-2-btn">
