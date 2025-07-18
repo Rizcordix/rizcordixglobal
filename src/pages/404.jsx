@@ -12,7 +12,7 @@ const index = () => {
   return (
     <>
     <SEO pageTitle={"Oops.! Page Not Found!"} /> 
-    <HeaderOne />
+    <HeaderFour />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>

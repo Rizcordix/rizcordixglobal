@@ -113,7 +113,7 @@ const PortfolioDetailsArea = () => {
                                 <span>
                                     <ContactIcon />
                                 </span>our address</h4>
-                                <p>Level 13, 2 Elizabeth St, Melbourne Victoria 3000, Australia</p>
+                                <p>184 High St N, London E6, UK</p>
                             </div>
                             <div className="tp-portfolio-details-info-mail">
                             <h4 className="tp-portfolio-details-info-title">
@@ -125,8 +125,8 @@ const PortfolioDetailsArea = () => {
                                     <EmailIconTwo />
                                 </span>
                                 <div className="tp-portfolio-details-info-mail-text">
-                                    <p>deanna.curtis@example.com</p>
-                                    <p>(406) 555-0120</p>
+                                    <p>info@rizordix.com</p>
+                                    <p>+44 161 818 6442</p>
                                 </div>
                             </div>
                             </div>
@@ -137,7 +137,7 @@ const PortfolioDetailsArea = () => {
                                 </span>
                             </div>
                             <div className="tp-portfolio-details-info-open-content">
-                                <h4 className="tp-portfolio-details-info-title">Opening Houres</h4>
+                                <h4 className="tp-portfolio-details-info-title">Opening Hours</h4>
                                 <p>Mon - Sat(8.00am - 6.00pm)</p>
                                 <p>Sunday - Closed</p>
                             </div>

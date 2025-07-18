@@ -1,5 +1,5 @@
 import React from "react"; 
-import HeaderOne from "@/src/layout/headers/header";
+import HeaderFour from "@/src/layout/headers/header-4";
 import Breadcrumb from "@/src/common/breadcrumb/breadcrumb";
 import ServiceArea from "./service-area";
 import VideoArea from "@/src/common/video-area";
@@ -12,7 +12,7 @@ import FooterThree from "@/src/layout/footers/footer-3";
 const Sevice = () => {
   return (
     <>
-      <HeaderOne />
+      <HeaderFour />
       <main>
             <Breadcrumb top_title="Our Services" page_title="Service" />
             <ServiceArea />
