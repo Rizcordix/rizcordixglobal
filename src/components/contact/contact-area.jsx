@@ -31,7 +31,7 @@ const ContactArea = () => {
                             <h3>Get In Touch</h3>
                             <p>
                                 With 7 years of experience and a dedicated team of 20-30 professionals, 
-                                we're here to transform your vision into reality.
+                                we&apos;re here to transform your vision into reality.
                             </p>
 
                             <div className="contact-grid">
@@ -95,7 +95,7 @@ const ContactArea = () => {
 
                 <div className="contact-cta">
                     <div className="contact-cta-button">
-                        🚀 Ready to elevate your brand? Let's create something amazing together!
+                        🚀 Ready to elevate your brand? Let&apos;s create something amazing together!
                     </div>
                 </div>
             </div>
