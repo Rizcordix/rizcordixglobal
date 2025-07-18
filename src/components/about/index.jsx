@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderOne from '@/src/layout/headers/header';
+import HeaderFour from "@/src/layout/headers/header-4";
 import Breadcrumb from '@/src/common/breadcrumb/breadcrumb';
 import AboutArea from './../homes/home-3/about-area';
 import CounterArea from '../homes/home-2/counter-area';
@@ -18,7 +18,7 @@ import HeaderThree from '@/src/layout/headers/header-3';
 const About = () => {
     return (
         <>
-          <HeaderOne /> 
+          <HeaderFour /> 
           <main>
             <Breadcrumb top_title="Our Company"  page_title="Our Company" />
             <CounterArea about={true} />

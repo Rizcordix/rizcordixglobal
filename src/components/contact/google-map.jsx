@@ -5,7 +5,7 @@ const GoogleMap = () => {
         <>
             <div className="tp-contact-map-area">
             <div className="tp-contact-map">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56557.40337080792!2d-122.06589254433018!3d37.87941669573798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80856152cc733413%3A0x4250b3bb90c93019!2sPleasant%20Hill%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1675489390593!5m2!1sen!2sbd" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" width="600" height="450"></iframe>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1240.8102799706267!2d0.051586!3d51.538519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a64a34fc5277%3A0x971c3e61d9cd2e78!2s184%20High%20St%20N%2C%20London%20E6%2C%20UK!5e0!3m2!1sen!2sus!4v1752821773989!5m2!1sen!2sus" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" width="600" height="450"></iframe>
             </div>
          </div>
         </>

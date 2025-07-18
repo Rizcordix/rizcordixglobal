@@ -1,3 +1,4 @@
+'use client';
 import useSticky from '@/src/hooks/use-sticky';
 import Link from 'next/link';
 import React, {useEffect, useRef, useState} from 'react';
@@ -8,7 +9,7 @@ import Sidebar from '@/src/modals/sidebar';
 import call_icon from '@assets/img/icon/call.svg';
 import { SocialLinksTwo } from '@/src/common/social-links';
 
-const HeaderThree = () => {
+const HeaderFour = () => {
    const {sticky}  =  useSticky()
    const [sidebarOpen, setSidebarOpen] = useState(false)
    const [isLangListOpen, setIsLangListOpen] = useState(false);
@@ -143,4 +144,4 @@ const HeaderThree = () => {
     );
 };
 
-export default HeaderThree;
+export default HeaderFour;
