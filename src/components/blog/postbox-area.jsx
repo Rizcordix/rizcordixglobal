@@ -1,94 +1,102 @@
-import post_data from '@/src/data/post-data';
+'use client';
+
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
- 
-import RecentPost from './recent-post';
-import Category from './category';
-import Tags from './tags';
-import SearchArea from './search-area';
-import UserProfile from './user-profile';
-
- 
 
 const PostboxArea = () => {
-    return (
-        <>
-            <section className="postbox__area pt-120 pb-120">
-            <div className="container">
-               <div className="row">
-                  <div className="col-xxl-8 col-xl-8 col-lg-8">
-                     <div className="postbox__wrapper">
-                        {post_data.map((item, i) => 
-                            <article key={i} className="postbox__item format-image mb-50 transition-3">
-                                <div className="postbox__thumb w-img">
-                                <Link href="/blog-details">
-                                    <Image src={item.thumb} alt="theme-pure" />
-                                </Link>
-                                <div className="postbox__tag">
-                                    <p>{item.catagory}</p>
-                                </div>
-                                </div>
-                                <div className="postbox__content">
-                                <div className="postbox__meta">
-                                    <span><i className="fa-light fa-calendar-days"></i>{item.date}</span>
-                                    <span><Link href="#"><i className="fal fa-comments"></i> Comments ({item.comments})</Link></span>
-                                    <span><Link href="#"><i className="fa-regular fa-clock"></i>{item.upload_time}</Link></span>
-                                </div>
-                                <h3 className="postbox__title">
-                                    <Link href="/blog-details">{item.title}</Link>
-                                </h3>
-                                <div className="postbox__text">
-                                    <p>{item.description}</p>
-                                </div>
-                                <div className="postbox__read-more">
-                                    <Link href="/blog-details" className="tp-btn">read more</Link>
-                                </div>
-                                </div>
-                            </article>
-                        
-                        )}
-                        <div className="basic-pagination text-center">
-                           <nav>
-                              <ul>
-                                 <li>
-                                    <Link href="/blog">
-                                       <i className="fa-regular fa-angles-left"></i>
-                                    </Link>
-                                 </li>
-                                 <li>
-                                    <Link href="/blog">1</Link>
-                                 </li>
-                                 <li>
-                                    <span className="current">2</span>
-                                 </li>
-                                 <li>
-                                    <Link href="/blog">3</Link>
-                                 </li>
-                                 <li>
-                                    <Link href="/blog">
-                                       <i className="fa-regular fa-angles-right"></i>
-                                    </Link>
-                                 </li>
-                              </ul>
-                            </nav>
-                        </div>
-                     </div>
-                  </div>
-                  <div className="col-xxl-4 col-xl-4 col-lg-4">
-                     <div className="sidebar__wrapper"> 
-                        <UserProfile /> 
-                        <SearchArea />
-                        <RecentPost />
-                        <Category />
-                        <Tags /> 
-                     </div>
-                  </div>
-               </div>
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    fetch('/api/blog')
+      .then((res) => res.json())
+      .then((data) => setBlogs(data))
+      .catch((err) => console.error('Error fetching blogs:', err));
+  }, []);
+
+  return (
+    <section className="tp-blog-3-area pt-100 pb-90">
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-12">
+            <div className="tp-blog-3-title-wrapper text-center mb-50">
+              <h3 className="tp-section-title">
+                Best Digital <span className="title-color">Technology</span> <br /> Blog & Insights
+              </h3>
             </div>
-         </section>
-        </>
-    );
+          </div>
+
+          {blogs.map((item, i) => (
+            <div key={i} className="col-xl-4 col-md-6">
+              <article className="tp-blog-3-wrapper mb-30 OneByOne">
+                <div
+                  className="tp-blog-3-thumb"
+                  style={{
+                    height: '250px',
+                    overflow: 'hidden',
+                    borderRadius: '8px',
+                    marginBottom: '20px'
+                  }}
+                >
+                  <Link href={`/blog/${item.BlogID}`}>
+                    {item.Image1 ? (
+                      <Image
+                        src={`data:image/jpeg;base64,${item.Image1}`}
+                        alt={item.MainTitle}
+                        width={400}
+                        height={250}
+                        style={{
+                          width: '100%',
+                          height: '250px',
+                          objectFit: 'cover',
+                          borderRadius: '8px'
+                        }}
+                      />
+                    ) : (
+                      <div
+                        style={{
+                          width: '100%',
+                          height: '250px',
+                          backgroundColor: '#eee',
+                          display: 'flex',
+                          justifyContent: 'center',
+                          alignItems: 'center',
+                          color: '#999',
+                          fontStyle: 'italic'
+                        }}
+                      >
+                        No Image
+                      </div>
+                    )}
+                  </Link>
+                </div>
+                <div className="tp-blog-3-content">
+                  <div className="tp-blog-date">
+                    <span>
+                      <i className="fa-light fa-calendar-days"></i> {item.date}
+                    </span>
+                  </div>
+                  <h3 className="tp-blog-3-title">
+                    <Link href={`/blog/${item.BlogID}`}>{item.MainTitle}</Link>
+                  </h3>
+                </div>
+                <div className="tp-blog-3-btn d-flex justify-content-between">
+                  <div className="read-more p-relative">
+                    <Link href={`/blog/${item.BlogID}`}>
+                      Read More <span><i className="fa-regular fa-arrow-right"></i></span>
+                    </Link>
+                  </div>
+                  <div className="fvrt">
+                    <span><i className="fa-light fa-heart"></i></span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default PostboxArea;

@@ -24,6 +24,8 @@
     "react-slick": "^0.29.0",
     "sass": "^1.62.0",
     "slick-carousel": "^1.8.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
     "swiper": "^9.2.2",
     "wow.js": "^1.2.2",
     "wowjs": "^1.1.3"
