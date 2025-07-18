@@ -1,70 +1,105 @@
-import ContactForm from '@/src/forms/contact-form'; 
-import EmailIconOne from '@/src/svg/email-icon-1';
-import PhoneIcon from '@/src/svg/phone-icon';
 import React from 'react';
+import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import img1 from '@assets/img/contact/buildings.png';
 
 const ContactArea = () => {
+    const services = [
+        'Creative and Content Writing',
+        'Graphic and Illustration Designing',
+        'UI/UX Design and Web Development',
+        'App Design and Development',
+        'Branding and Merchandising',
+        'Animation and Video Editing',
+        'Digitizing',
+        'Presentation and Pitch Deck Design'
+    ];
+
     return (
-        <>
-            <section className="tp-contact-area pt-120 pb-90">
-                <div className="container">
-                <div className="row">
-                    <div className="col-lg-6">
-                        <div className="tp-contact-wrapper">
-                            <div className="tp-contact-title-wrapper">
-                            <h3 className="tp-contact-title">Contact <span className="title-color">With us</span></h3> 
-                            <p>Email, call, or complete the form to learn how Kion can <br /> 
-                             solve your cloud management and governance cha.</p>
-                            </div>
-                            <div className="tp-contact-content">
-                            <div className="tp-contact-content-mail d-flex align-items-center">
-                                <div className="tp-contact-content-mail-icon">
-                                    <span> 
-                                        <EmailIconOne /> 
-                                    </span>
+        <section className="contact-section">
+            <div className="contact-container">
+                <div className="contact-header">
+                    <h2>Contact <span style={{ color: '#05DAC3' }}>With Us</span></h2>
+                    <p>
+                        Ready to bring your ideas to life? Get in touch with Rizcordix Global for world-class 
+                        creative services, design solutions, and digital development.
+                    </p>
+                </div>
+
+                <div className="contact-main">
+                    <div className="contact-main-inner">
+                        <div className="contact-card">
+                            <h3>Get In Touch</h3>
+                            <p>
+                                With 7 years of experience and a dedicated team of 20-30 professionals, 
+                                we&apos;re here to transform your vision into reality.
+                            </p>
+
+                            <div className="contact-grid">
+                                <div className="contact-icon-box">
+                                    <div className="contact-icon-circle teal">
+                                        <Mail size={32} color="#ffffff" />
+                                    </div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:info@rizcordixglobal.com">info@rizcordixglobal.com</a>
                                 </div>
-                                <h3 className="tp-contact-item-title"><a href="mailto:@themepure.gmail.com">thepureingsai.co.uk</a></h3>
-                            </div>
-                            <div className="tp-contact-content-phone d-flex align-items-center">
-                                <div className="tp-contact-content-phone-icon">
-                                    <span>
-                                        <PhoneIcon /> 
-                                    </span>
+
+                                <div className="contact-icon-box">
+                                    <div className="contact-icon-circle orange">
+                                        <Phone size={32} color="#ffffff" />
+                                    </div>
+                                    <h4>Phone</h4>
+                                    <a className="orange" href="tel:+441618186442">+44 161 818 6442</a>
                                 </div>
-                                <h3 className="tp-contact-item-title">
-                                    <a href="tel:+441618186442">+44 161 818 6442</a>
-                                </h3>
-                            </div>
-                            <div className="tp-contact-location-wrapper d-flex">
-                                <div className="tp-contact-location">
-                                    <h3 className="tp-contact-location-title">
-                                        Office Location
-                                        <i className="fa-regular fa-arrow-down"></i>
-                                    </h3>
-                                    <p>4517 Washington Ave. Manch ester, Kentucky 39495</p>
+
+                                <div className="contact-icon-box">
+                                    <div className="contact-icon-circle teal">
+                                        <MapPin size={32} color="#ffffff" />
+                                    </div>
+                                    <h4>Office Location</h4>
+                                    <p>184 High ST N<br />E6 London UK</p>
                                 </div>
-                                <div className="tp-contact-location">
-                                    <h3 className="tp-contact-location-title">
-                                        Office Location {" "}
-                                    <i className="fa-regular fa-arrow-down"></i></h3>
-                                    <p>4517 Washington Ave. Manch ester, Kentucky 39495</p>
+
+                                <div className="contact-icon-box">
+                                    <div className="contact-icon-circle orange">
+                                        <Clock size={32} color="#ffffff" />
+                                    </div>
+                                    <h4>Business Hours</h4>
+                                    <p>Monday - Saturday</p>
                                 </div>
                             </div>
+                        </div>
+
+                        <div
+                            className="services-box"
+                            style={{ background: 'linear-gradient(135deg, #070707 0%, #333231 100%)', }}
+                        >
+                            <h3>Our <span style={{ color: '#05DAC3' }}>Services</span></h3>
+                            <div className="services-grid">
+                                {services.map((service, index) => (
+                                    <div className="service-item" key={index}>
+                                        <div
+                                            className="service-dot"
+                                            style={{
+                                                background: index % 2 === 0
+                                                    ? 'linear-gradient(135deg, #05DAC3 0%, #04B5A0 100%)'
+                                                    : 'linear-gradient(135deg, #FFB302 0%, #E69500 100%)'
+                                            }}
+                                        ></div>
+                                        <span className="service-text">{service}</span>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
-                        <div className="tp-contact-form">
-                            <h3 className="tp-contact-form-title">Contact Us</h3>
-                            <p>Your email address will not be published. Required fields <br  /> are marked *</p>
-                            <ContactForm /> 
-                            <p className="ajax-response"></p>
-                        </div>
+                </div>
+
+                <div className="contact-cta">
+                    <div className="contact-cta-button">
+                        🚀 Ready to elevate your brand? Let&apos;s create something amazing together!
                     </div>
                 </div>
-                </div>
-            </section>
-        </>
+            </div>
+        </section>
     );
 };
 
