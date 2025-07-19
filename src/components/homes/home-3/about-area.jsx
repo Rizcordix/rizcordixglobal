@@ -52,12 +52,6 @@ const AboutArea = ({about}) => {
                             <Image className="shape-1" src={about_img_3} alt="theme-pure" />
                             <div className="shape-2 p-relative">
                             <Image src={about_img_4} alt="theme-pure" />
-                            <div className="tp-video-play">
-                                <a className="popup-video" 
-                                onClick={() => setIsVideoOpen(true)}>
-                                    <i className="fa-sharp fa-solid fa-play"></i>
-                                </a>
-                            </div>
                             </div>
                             <Image className="shape-3" src={about_shape_1} alt="theme-pure" />
                             <Image className="shape-4" src={about_shape_2} alt="theme-pure" />

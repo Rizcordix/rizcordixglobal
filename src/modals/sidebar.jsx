@@ -101,7 +101,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                     <div className="offcanvas__social"> 
                         <a className="icon facebook" href="https://www.facebook.com/profile.php?id=61561262167701" target='_blank'><i className="fab fa-facebook-f"></i></a>
                         <a className="icon linkedin" href="https://www.linkedin.com/company/rizcordix" target='_blank'><i className="fab fa-linkedin"></i></a>
-                        <a className="icon youtube" href="#"><i className="fab fa-youtube"></i></a>
+                        <a className="icon youtube" href="https://youtube.com/@rizcordixglobal?si=hMhto4OoLkFiJovm" target='_blank'><i className="fab fa-youtube"></i></a>
                         <a className="icon instagram" href="https://www.instagram.com/rizcordix_global/" target='_blank'><i className="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>

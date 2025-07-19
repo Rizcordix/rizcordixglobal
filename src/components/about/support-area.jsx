@@ -51,7 +51,7 @@ const SupportArea = ()  => {
                         )} 
                      </ul>
                      <div className="tp-support-breadcrumb-btn mb-30">
-                        <Link className="tp-btn" href="/service-details">Tell us How Can We Help</Link>
+                        <Link className="tp-btn" href="form">Tell us How Can We Help</Link>
                      </div>
                   </div>
                </div>

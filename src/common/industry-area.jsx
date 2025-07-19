@@ -92,9 +92,6 @@ const IndustryArea = ({service}) => {
                                                 <div className="tp-industry-tab-content-inner d-flex mb-30">
                                                 <div className="tp-industry-tab-thumb p-relative">
                                                     <Image src={industry_thumb_1} alt="Rizcordix Global Pvt Ltd Innovation" /> 
-                                                     <button className="popup-video" onClick={() => setIsVideoOpen(true)} >
-                                                        <i className="fa-sharp fa-solid fa-play"></i>
-                                                    </button> 
                                                 </div>
                                                 <ul>
                                                     <li><span><svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -131,10 +128,6 @@ const IndustryArea = ({service}) => {
                                                 <div className="tp-industry-tab-content-inner d-flex mb-30">
                                                 <div className="tp-industry-tab-thumb p-relative">
                                                 <Image src={industry_thumb_2} alt="Rizcordix Global Pvt Ltd Collaboration" />
-                                                <button className="popup-video" 
-                                                onClick={() => setIsVideoOpen(true)} 
-                                                ><i className="fa-sharp fa-solid fa-play"></i>
-                                                </button> 
                                                 </div>
 
                                                 <ul>
@@ -179,9 +172,6 @@ const IndustryArea = ({service}) => {
                                                 <div className="tp-industry-tab-content-inner d-flex mb-30">
                                                 <div className="tp-industry-tab-thumb p-relative">
                                                     <img src="/assets/img/industry/img-3.jpg" alt="Rizcordix Global Pvt Ltd Excellence" /> {/* Assuming img-3.jpg exists or replace with a relevant image path */}
-                                                <button className="popup-video" 
-                                                    onClick={() => setIsVideoOpen(true)}><i className="fa-sharp fa-solid fa-play"></i>
-                                                </button>
                                                 </div>
                                                 <ul>
                                                     <li>
