@@ -35,15 +35,15 @@ const counter_content = [
       info: "Team Members",
       cls: "purecounter",
       cls_2: "",
-      icon: "",
+      icon: "+",
    },
    {
       id: 3, 
-      count: 50,
+      count: 65,
       info: "Successfully Delivered Projects",
       cls: "purecounter",
       cls_2: "",
-      icon: "",
+      icon: "+",
    },
 ]
 
@@ -204,7 +204,7 @@ const ServiceArea = () => {
                                  </li>
                               </ul>
                               <div className="tp-fun-fact-btn">
-                                 <Link className="tp-btn" href="/service-details">Tell us How We Can Help</Link>
+                                 <Link className="tp-btn" href="/form">Tell us How We Can Help</Link>
                               </div>
                            </div>
                         </div>

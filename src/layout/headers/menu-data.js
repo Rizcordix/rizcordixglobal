@@ -42,7 +42,7 @@ const menu_data = [
   {
     id: 5,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     title: "Blog",
     link: "/blog",
     active: "",

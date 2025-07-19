@@ -159,6 +159,7 @@ const Footer = () => {
                                 <div className="tp-footer-widget tp-footer-col-3">
                                 <h3 className="tp-footer-widget-title">Contact Info</h3>
                                 <div className="tp-footer-widget-content">
+                                    <Link href={"https://wa.link/qxvzvg"} target='_blank'>
                                     <div className="tp-footer-author d-flex">
                                         <div className="tp-footer-author-thumb">
                                             <Image src={user} alt="theme-pure" />
@@ -167,6 +168,7 @@ const Footer = () => {
                                             <span>Chat With Expert <br /> Active Now</span>
                                         </div>
                                     </div>
+                                    </Link>
                                     <h3 className="tp-footer-widget-title">Portfolios</h3>
                                     <ul>
                                         <li><Link href="/content_portfolio">Content Writing</Link></li>

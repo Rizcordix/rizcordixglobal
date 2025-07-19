@@ -22,8 +22,8 @@ const support_content = [
     },
     {
         id: 3, 
-        count: 50, 
-        symbol: "%",
+        count: 65, 
+        symbol: "+",
         cls: "fadeRight",
         title: "Successful Projects",
         info: <>Projects completed with <br /> exceptional client satisfaction.</>

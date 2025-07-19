@@ -18,7 +18,7 @@ const social_links = [
     icon: "fa-brands fa-instagram", 
   }, 
   {
-    link: "https://www.youtube.com",
+    link: "https://youtube.com/@rizcordixglobal?si=hMhto4OoLkFiJovm",
     target: "_blank",
     icon: "fa-brands fa-youtube", 
   },
@@ -82,7 +82,7 @@ const social_links_two = [
     icon: "fab fa-linkedin-in", 
   }, 
   {
-    link: "https://www.youtube.com",
+    link: "https://youtube.com/@rizcordixglobal?si=hMhto4OoLkFiJovm",
     target: "_blank",
     icon: "fab fa-youtube",  
 },

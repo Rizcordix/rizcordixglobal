@@ -39,7 +39,7 @@ const HeaderTwo = () => {
                                  <a href="https://www.facebook.com/profile.php?id=61561262167701" target='_blank'><i className="fa-brands fa-facebook-f"></i></a>
                                  <a href="https://www.linkedin.com/company/rizcordix" target='_blank'><i className="fa-brands fa-linkedin"></i></a>
                                  <a href="https://www.instagram.com/rizcordix_global/" target='_blank'><i className="fa-brands fa-instagram"></i></a>
-                                 <a href="#"><i className="fa-brands fa-youtube"></i></a>
+                                 <a href="https://youtube.com/@rizcordixglobal?si=hMhto4OoLkFiJovm" target='_blank'><i className="fa-brands fa-youtube"></i></a>
                               </div>
                            </div>
                         </div>

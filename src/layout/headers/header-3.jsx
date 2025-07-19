@@ -59,8 +59,10 @@ const HeaderThree = () => {
                         <div className="col-xl-10 col-xxl-8">
                             <div className="tp-header-3-top-info d-flex">
                                 <div className="tp-header-3-top-call d-flex">
+                                    <Link href="tel:+441618186442">
                                 <span>Call</span>
-                                <p>Consult With IT Advisor? <a href="#">Click Now</a></p>
+                                </Link>
+                                <p>Consult With IT Advisor? <a href="/calendly">Click Now</a></p>
                                 </div>
                                 <ul>
                                 <li>

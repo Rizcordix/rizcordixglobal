@@ -75,7 +75,7 @@ const testimonial_data = [
         avatar: user_3,
         name: "Savannah Nguyen",
         title: "Project Manager",
-        description: <>Rizcordix&apos;s team delivered on time with exceptional design work <br /> that aligned perfectly with our vision. A truly creative and reliable agency.</>,
+        description: <>The team delivered on time with exceptional design work that aligned perfectly with our vision. Rizcordix is a truly creative and reliable agency.</>,
     },
 ]
 
