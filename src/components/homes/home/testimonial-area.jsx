@@ -5,9 +5,9 @@ import LineArrowTwo from '@/src/svg/line-arrow-2';
 
 import shape_img from "@assets/img/testimonial/shape-1.png";
 import bg_img from "@assets/img/testimonial/testimonial-bg.jpg";
-import user_1 from "@assets/img/testimonial/user-1.jpg";
-import user_2 from "@assets/img/testimonial/user-2.jpg";
-import user_3 from "@assets/img/testimonial/user-3.jpg"; 
+import user_1 from "@assets/img/testimonial/boy4.jpg";
+import user_2 from "@assets/img/testimonial/girl1.jpg";
+import user_3 from "@assets/img/testimonial/girl7.jpg"; 
 import Image from 'next/image';
 
 const setting =  {
