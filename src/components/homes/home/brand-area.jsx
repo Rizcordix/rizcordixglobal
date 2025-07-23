@@ -12,7 +12,7 @@ import shape_7 from "@assets/img/brand/flutter.png";
 import shape_8 from "@assets/img/brand/wordpress.png"; 
 import shape_9 from "@assets/img/brand/shape-3.png"; 
 
-import brand_thumb from "@assets/img/brand/img-1.png"; 
+import brand_thumb from "@assets/img/brand/vrman1.png"; 
 import bg_shape from "@assets/img/brand/shape-1.png"; 
 
 // shape data 
