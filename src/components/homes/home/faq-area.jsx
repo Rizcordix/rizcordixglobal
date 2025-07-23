@@ -3,7 +3,7 @@ import Image from 'next/image';
 import answer_question_data from '@/src/data/answer-question-data';
 
 
-import shape_1 from  "@assets/img/support/shape-img.png";
+import shape_1 from  "@assets/img/support/faq1.png";
 import shape_2 from  "@assets/img/support/shape-bg.png";
 import AngleArrow from '@/src/svg/angle-arrow';
 import LineArrowTwo from '@/src/svg/line-arrow-2';

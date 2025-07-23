@@ -5,9 +5,9 @@ import AngleArrow from '@/src/svg/angle-arrow';
 import VideoPopup from '@/src/modals/video-popup';
 // about img import here
 import about_img_1 from "@assets/img/about/home-3/shape-4.png";
-import about_img_2 from "@assets/img/about/home-3/img-1.jpg";
-import about_img_3 from "@assets/img/about/home-3/img-2.jpg";
-import about_img_4 from "@assets/img/about/home-3/img-3.jpg";
+import about_img_2 from "@assets/img/about/home-3/aboutimage1.jpg";
+import about_img_3 from "@assets/img/about/home-3/aboutimage3.jpg";
+import about_img_4 from "@assets/img/about/home-3/aboutimage2.png";
 // about shape import here
 import about_shape_1 from "@assets/img/about/home-3/shape-1.png";
 import about_shape_2 from "@assets/img/about/home-3/shape-2.png";

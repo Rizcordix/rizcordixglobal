@@ -8,10 +8,10 @@ import testimonial_shape_2 from "@assets/img/testimonial/home-3/shape-2.png";
 import testimonial_img_1 from "@assets/img/testimonial/home-3/img-2.png";
 import testimonial_img_2 from "@assets/img/testimonial/home-3/img-3.png";
 
-import testimonial_slider_img_1 from "@assets/img/testimonial/home-3/img-1.png";
-import testimonial_slider_img_2 from "@assets/img/testimonial/home-3/img-2.jpg";
-import testimonial_slider_img_3 from "@assets/img/testimonial/home-3/img-3.jpg";
-import testimonial_slider_img_4 from "@assets/img/testimonial/home-3/img-4.jpg";
+import testimonial_slider_img_1 from "@assets/img/testimonial/home-3/Testimonial_Image_1.jpg";
+import testimonial_slider_img_2 from "@assets/img/testimonial/home-3/Testimonial_Image_2.jpg";
+import testimonial_slider_img_3 from "@assets/img/testimonial/home-3/Testimonial_Image_3.jpg";
+import testimonial_slider_img_4 from "@assets/img/testimonial/home-3/Testimonial_Image_4.jpg";
 
 const slider_img = [
     testimonial_slider_img_1,

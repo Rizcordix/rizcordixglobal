@@ -12,7 +12,7 @@ import slider_shape_3 from "@assets/img/hero/hero-3/shape-3.png";
 const hero_slider = [
     {
         id: 1,
-        bg_slider_img: "/assets/img/hero/hero-3/hero-1.jpg",
+        bg_slider_img: "/assets/img/hero/hero-3/hero_image_1.jpg",
         title: "creative it &",
         title_color: "Bold",
         title_2: "visual strategy",
@@ -20,7 +20,7 @@ const hero_slider = [
     },
     {
         id: 2,
-        bg_slider_img: "/assets/img/hero/hero-3/hero-2.jpg",
+        bg_slider_img: "/assets/img/hero/hero-3/hero_image_2.jpg",
         title: "Modern it &",
         title_color: "Tech",
         title_2: "solutions",
@@ -28,7 +28,7 @@ const hero_slider = [
     },
     {
         id: 3,
-        bg_slider_img: "/assets/img/hero/hero-3/hero-3.jpg",
+        bg_slider_img: "/assets/img/hero/hero-3/hero_image_3.jpg",
         title: "Trusted it &",
         title_color: "Mark",
         title_2: "professional",
