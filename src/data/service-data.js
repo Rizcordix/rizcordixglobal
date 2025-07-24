@@ -1,8 +1,12 @@
 // import img here 
-import service_img_1 from "@assets/img/services/services-1.jpg";
-import service_img_2 from "@assets/img/services/services-2.jpg";
-import service_img_3 from "@assets/img/services/services-3.jpg";
-import service_img_4 from "@assets/img/services/services-4.jpg";
+import service_img_1 from "@assets/img/services/Content_Writing_Icon.png";
+import service_img_2 from "@assets/img/services/Branding_icon.png";
+import service_img_3 from "@assets/img/services/UI_UX_Icon.png";
+import service_img_4 from "@assets/img/services/App_Icon.png";
+import service_img_5 from "@assets/img/services/Graphic_Icon.png"
+import service_img_6 from "@assets/img/services/Animation_Icon.png";
+import service_img_7 from  "@assets/img/services/Data_Backup_Icon.png";
+import service_img_8 from  "@assets/img/services/Web_Design_Icon.png";// Add more images if required
 // import service_img_5 from "@assets/img/services/services-5.jpg"; // Add more images if required
 
 const service_data = [
@@ -38,28 +42,28 @@ const service_data = [
         id: 5, 
         alphabet: "G",
         title: <>Graphics & <br /> Illustration Design</>,
-        img: service_img_2,
+        img: service_img_5,
         description: <>We deliver graphic design and illustrations that communicate your message.</>,        
     },
     {
         id: 6, 
         alphabet: "A",
         title: <>Animation & <br /> Video Editing</>,
-        img: service_img_3,
+        img: service_img_6,
         description: <>Our animation and video editing bring ideas to life and engage your audience.</>,        
     },
     {
         id: 7, 
         alphabet: "D",
         title: <>Data Backup & <br /> Cloud Solutions</>,
-        img: service_img_4,
+        img: service_img_7,
         description: <>We offer reliable cloud and backup to protect your business information.</>,        
     },
     {
         id: 8, 
         alphabet: "W",
         title: <>Web Design & <br /> E-commerce Solutions</>,
-        img: service_img_4,
+        img: service_img_8,
         description: <>Responsive web and e-commerce solutions designed for seamless experiences</>,        
     },
 ]

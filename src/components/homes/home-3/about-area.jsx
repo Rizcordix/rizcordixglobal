@@ -5,9 +5,9 @@ import AngleArrow from '@/src/svg/angle-arrow';
 import VideoPopup from '@/src/modals/video-popup';
 // about img import here
 import about_img_1 from "@assets/img/about/home-3/shape-4.png";
-import about_img_2 from "@assets/img/about/home-3/img-1.jpg";
-import about_img_3 from "@assets/img/about/home-3/img-2.jpg";
-import about_img_4 from "@assets/img/about/home-3/img-3.jpg";
+import about_img_2 from "@assets/img/about/home-3/aboutimage1.jpg";
+import about_img_3 from "@assets/img/about/home-3/aboutimage3.jpg";
+import about_img_4 from "@assets/img/about/home-3/aboutimage2.png";
 // about shape import here
 import about_shape_1 from "@assets/img/about/home-3/shape-1.png";
 import about_shape_2 from "@assets/img/about/home-3/shape-2.png";
@@ -52,12 +52,6 @@ const AboutArea = ({about}) => {
                             <Image className="shape-1" src={about_img_3} alt="theme-pure" />
                             <div className="shape-2 p-relative">
                             <Image src={about_img_4} alt="theme-pure" />
-                            <div className="tp-video-play">
-                                <a className="popup-video" 
-                                onClick={() => setIsVideoOpen(true)}>
-                                    <i className="fa-sharp fa-solid fa-play"></i>
-                                </a>
-                            </div>
                             </div>
                             <Image className="shape-3" src={about_shape_1} alt="theme-pure" />
                             <Image className="shape-4" src={about_shape_2} alt="theme-pure" />

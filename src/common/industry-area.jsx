@@ -10,11 +10,11 @@ import industry_shape_1 from "@assets/img/industry/shape-1.png";
 import industry_shape_2 from "@assets/img/industry/shape-2.png";
 import industry_shape_3 from "@assets/img/industry/shape-3.png";
 
-import industry_icon_1 from "@assets/img/industry/icon-1.svg"; // Consider updating these icons to better represent your services
-import industry_icon_2 from "@assets/img/industry/icon-2.svg"; // For example, an icon for creative, one for tech, one for branding
-import industry_icon_3 from "@assets/img/industry/icon-3.svg"; // If you have specific icons, let me know!
-import industry_thumb_1 from "@assets/img/industry/img-1.jpg";
-import industry_thumb_2 from "@assets/img/industry/img-2.jpg";
+import industry_icon_1 from "@assets/img/industry/Creative_Solutions_Icon.png"; // Consider updating these icons to better represent your services
+import industry_icon_2 from "@assets/img/industry/Digital_Consultancy_Icon.png"; // For example, an icon for creative, one for tech, one for branding
+import industry_icon_3 from "@assets/img/industry/Web_App_Deve_Icon.png"; // If you have specific icons, let me know!
+import industry_thumb_1 from "@assets/img/industry/innovation.jpg";
+import industry_thumb_2 from "@assets/img/industry/collaboration.jpg";
 
 
 const IndustryArea = ({service}) => {
@@ -92,9 +92,6 @@ const IndustryArea = ({service}) => {
                                                 <div className="tp-industry-tab-content-inner d-flex mb-30">
                                                 <div className="tp-industry-tab-thumb p-relative">
                                                     <Image src={industry_thumb_1} alt="Rizcordix Global Pvt Ltd Innovation" /> 
-                                                     <button className="popup-video" onClick={() => setIsVideoOpen(true)} >
-                                                        <i className="fa-sharp fa-solid fa-play"></i>
-                                                    </button> 
                                                 </div>
                                                 <ul>
                                                     <li><span><svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -131,10 +128,6 @@ const IndustryArea = ({service}) => {
                                                 <div className="tp-industry-tab-content-inner d-flex mb-30">
                                                 <div className="tp-industry-tab-thumb p-relative">
                                                 <Image src={industry_thumb_2} alt="Rizcordix Global Pvt Ltd Collaboration" />
-                                                <button className="popup-video" 
-                                                onClick={() => setIsVideoOpen(true)} 
-                                                ><i className="fa-sharp fa-solid fa-play"></i>
-                                                </button> 
                                                 </div>
 
                                                 <ul>
@@ -178,10 +171,7 @@ const IndustryArea = ({service}) => {
                                             <div className="tp-industry-tab-content">
                                                 <div className="tp-industry-tab-content-inner d-flex mb-30">
                                                 <div className="tp-industry-tab-thumb p-relative">
-                                                    <img src="/assets/img/industry/img-3.jpg" alt="Rizcordix Global Pvt Ltd Excellence" /> {/* Assuming img-3.jpg exists or replace with a relevant image path */}
-                                                <button className="popup-video" 
-                                                    onClick={() => setIsVideoOpen(true)}><i className="fa-sharp fa-solid fa-play"></i>
-                                                </button>
+                                                    <img src="/assets/img/industry/excellence.jpg" alt="Rizcordix Global Pvt Ltd Excellence" /> {/* Assuming img-3.jpg exists or replace with a relevant image path */}
                                                 </div>
                                                 <ul>
                                                     <li>
@@ -235,11 +225,6 @@ const IndustryArea = ({service}) => {
                     </div>
             </section>
 
-            <VideoPopup
-            isVideoOpen={isVideoOpen}
-            setIsVideoOpen={setIsVideoOpen}
-            videoId={"EW4ZYb3mCZk"} 
-            />
         </>
     );
 };

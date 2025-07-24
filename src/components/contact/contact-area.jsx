@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, CalendarClock, MessageSquareShare } from 'lucide-react';
 import img1 from '@assets/img/contact/buildings.png';
 
 const ContactArea = () => {
@@ -95,7 +95,14 @@ const ContactArea = () => {
 
                 <div className="contact-cta">
                     <div className="contact-cta-button">
-                        🚀 Ready to elevate your brand? Let&apos;s create something amazing together!
+                        <a href="/calendly" rel="noopener noreferrer">
+                           <CalendarClock size={26} color="#ffffff"/> Expert Consultancy
+                        </a>
+                    </div>
+                    <div className="contact-cta-button2">
+                        <a href="/form" rel="noopener noreferrer">
+                           <MessageSquareShare size={26} color="#ffffff"/> Send Inquiry
+                        </a>
                     </div>
                 </div>
             </div>

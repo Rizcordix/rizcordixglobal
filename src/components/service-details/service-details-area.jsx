@@ -2,11 +2,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
-import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from  "@assets/img/services/service-details/img-1.jpg";
-import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
 import RightSymbol from '@/src/svg/right-symbol';
 import accordion from '@/src/data/accordion';
+import service_details_thumb1 from  "@assets/img/services/service-details/content.jpg";
+import service_details_thumb2 from  "@assets/img/services/service-details/branding.jpg";
+import service_details_thumb3 from  "@assets/img/services/service-details/uiux.jpg";
+import service_details_thumb4 from  "@assets/img/services/service-details/development.jpg";
+import service_details_thumb5 from  "@assets/img/services/service-details/illustrate.jpg";
+import service_details_thumb6 from  "@assets/img/services/service-details/animation.jpg";
+import service_details_thumb7 from  "@assets/img/services/service-details/cloud.jpg";
+import service_details_thumb8 from  "@assets/img/services/service-details/ecommerce.jpg";
 
 const service_details_content = {
     service_details_tab: [
@@ -48,7 +53,7 @@ const ServiceDetailsArea = () => {
         return {
           title: "Creative Content Writing",
           description: "We create tailored content that engages your audience and strengthens your brand's presence across digital platforms.",
-          img: service_details_thumb,
+          img: service_details_thumb1,
           whyTitle: "Why Quality Content Matters?",
           whyDescription: "Quality content builds trust, improves SEO rankings, and establishes your brand as an authority in your industry. It's the foundation of successful digital marketing.",
           whyImage: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500&h=300&fit=crop",
@@ -63,7 +68,7 @@ const ServiceDetailsArea = () => {
         return {
           title: "Branding & Merchandising",
           description: "Our branding services help define your business identity, including logo design and product packaging that align with your vision.",
-          img: service_details_thumb,
+          img: service_details_thumb2,
           whyTitle: "Why Strong Branding is Essential?",
           whyDescription: "Strong branding differentiates your business, creates emotional connections with customers, and builds long-term loyalty and recognition in the marketplace.",
           whyImage: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=500&h=300&fit=crop",
@@ -78,7 +83,7 @@ const ServiceDetailsArea = () => {
         return {
           title: "UI/UX Design & Web Development",
           description: "We design intuitive interfaces and provide robust web development to deliver high-performance, user-friendly websites.",
-          img: service_details_thumb,
+          img: service_details_thumb3,
           whyTitle: "Why Great UI/UX Design Matters?",
           whyDescription: "Exceptional UI/UX design increases user satisfaction, reduces bounce rates, and improves conversion rates by creating seamless, intuitive user experiences.",
           whyImage: "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=500&h=300&fit=crop",
@@ -93,7 +98,7 @@ const ServiceDetailsArea = () => {
         return {
           title: "App Design & Development",
           description: "We create high-performance mobile apps, from design to development, ensuring they meet business objectives and provide a great user experience.",
-          img: service_details_thumb,
+          img: service_details_thumb4,
           whyTitle: "Why Mobile Apps are Crucial?",
           whyDescription: "Mobile apps provide direct access to customers, improve engagement, and offer personalized experiences that can significantly boost customer retention and revenue.",
           whyImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&h=300&fit=crop",
@@ -108,7 +113,7 @@ const ServiceDetailsArea = () => {
         return {
           title: "Graphic & Illustration Design",
           description: "We offer graphic design and illustration services that communicate your brand's message through compelling visuals.",
-          img: service_details_thumb,
+          img: service_details_thumb5,
           whyTitle: "Why Visual Design is Powerful?",
           whyDescription: "Visual design communicates messages instantly, creates emotional connections, and makes complex information easily digestible, significantly improving communication effectiveness.",
           whyImage: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=500&h=300&fit=crop",
@@ -123,7 +128,7 @@ const ServiceDetailsArea = () => {
         return {
           title: "Animation & Video Editing",
           description: "Our animation and video editing services create engaging visuals that help bring your ideas to life and connect with your audience.",
-          img: service_details_thumb,
+          img: service_details_thumb6,
           whyTitle: "Why Video Content is Essential?",
           whyDescription: "Video content has higher engagement rates, improves information retention, and is favored by search engines, making it crucial for modern marketing strategies.",
           whyImage: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=500&h=300&fit=crop",
@@ -138,7 +143,7 @@ const ServiceDetailsArea = () => {
         return {
           title: "Data Backup & Cloud Solutions",
           description: "We provide reliable cloud and data backup solutions to protect your critical business information from loss.",
-          img: service_details_thumb,
+          img: service_details_thumb7,
           whyTitle: "Why Data Protection is Critical?",
           whyDescription: "Data loss can be catastrophic for businesses. Reliable backup and cloud solutions ensure business continuity, protect against cyber threats, and enable remote accessibility.",
           whyImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=300&fit=crop",
@@ -153,7 +158,7 @@ const ServiceDetailsArea = () => {
         return {
           title: "Web Design & E-commerce Solutions",
           description: "We design responsive websites and e-commerce solutions that provide a seamless user experience across all devices.",
-          img: service_details_thumb,
+          img: service_details_thumb8,
           whyTitle: "Why Professional Web Design Matters?",
           whyDescription: "Professional web design builds credibility, improves user experience, and directly impacts conversion rates. It's your digital storefront and first impression.",
           whyImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
