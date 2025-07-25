@@ -1,9 +1,9 @@
-import portfolio_img_1 from "@assets/img/portfolio/img-1.jpg";
-import portfolio_img_2 from "@assets/img/portfolio/img-2.jpg";
-import portfolio_img_3 from "@assets/img/portfolio/img-3.jpg";
-import portfolio_img_4 from "@assets/img/portfolio/img-4.jpg";
-import portfolio_img_5 from "@assets/img/portfolio/img-5.jpg";
-import portfolio_img_6 from "@assets/img/portfolio/img-6.jpg";
+import portfolio_img_1 from "@assets/img/portfolio/content-writing.png";
+import portfolio_img_2 from "@assets/img/portfolio/graphic.png";
+import portfolio_img_3 from "@assets/img/portfolio/ui.png";
+import portfolio_img_4 from "@assets/img/portfolio/app.png";
+import portfolio_img_5 from "@assets/img/portfolio/branding.png";
+import portfolio_img_6 from "@assets/img/portfolio/Presentation-Design.png";
 
 const portfolio_data = [
   {
