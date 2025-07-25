@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 
-import portfolio_thumb from "@assets/img/portfolio/portfolio-details/img-1.jpg";
+import portfolio_thumb from "@assets/img/portfolio/portfolio-details/graphic_.png";
 import portfolio_icon_1 from "@assets/img/portfolio/portfolio-details/icon-1.png";
 import portfolio_icon_2 from "@assets/img/portfolio/portfolio-details/icon-2.png";
 import portfolio_icon_3 from "@assets/img/portfolio/portfolio-details/icon-3.png";
