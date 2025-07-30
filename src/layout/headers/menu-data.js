@@ -1,4 +1,4 @@
-import HomeIcon from "@/src/svg/home-icon";
+ import HomeIcon from "@/src/svg/home-icon";
 
 const menu_data = [
   {
@@ -26,8 +26,8 @@ const menu_data = [
     link: "/service",
     active: "",
     sub_menus: [
-      { link: "/service", title: "Service" },
-      { link: "/service-details", title: "Services Details" }, 
+      { link: "/service", title: "Our Solutions" },
+      { link: "/service-details", title: "Detailed Offerings" }, 
     ],
   },
   {
