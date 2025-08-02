@@ -1,10 +1,11 @@
+"use client";
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 import headphone from "@assets/img/footer/headphone.png";
 import footer_logo from "@assets/img/logo/logo1.png";
-import user from "@assets/img/footer/user.png";
+import user from "@assets/img/testimonial/call.png";
 import EmailAeroplan from '@/src/svg/email-aeroplan';
 import SocialLinks, { CopyRight } from '@/src/common/social-links';
 
@@ -162,7 +163,7 @@ const Footer = () => {
                                     <Link href={"https://wa.link/qxvzvg"} target='_blank'>
                                     <div className="tp-footer-author d-flex">
                                         <div className="tp-footer-author-thumb">
-                                            <Image src={user} alt="theme-pure" />
+                                            <Image width={64} src={user} alt="theme-pure" />
                                         </div>
                                         <div className="tp-footer-author-content">
                                             <span>Chat With Expert <br /> Active Now</span>
