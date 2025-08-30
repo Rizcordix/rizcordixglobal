@@ -24,7 +24,7 @@ const About = () => {
             <CounterArea about={true} />
             <FeatureArea about={true} />
             <SupportArea />
-            <VideoArea />
+            {/* <VideoArea /> */}
             <TestimonialFeature />
             <TestimonialArea />
             <BrandArea />
