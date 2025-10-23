@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import brand_img_1 from "@assets/img/brand/home-3/dsynex.png";
 import brand_img_2 from "@assets/img/brand/home-3/foskrift.png";
 import brand_img_3 from "@assets/img/brand/home-3/maq.png";
-import brand_img_4 from "@assets/img/brand/home-3/venturist.png";
-import brand_img_5 from "@assets/img/brand/home-3/brand-5.png";
+import brand_img_4 from "@assets/img/brand/home-3/publishing.png";
+import brand_img_5 from "@assets/img/brand/home-3/domyebook.png";
 
 // Example brand links
 const brand_links = [
