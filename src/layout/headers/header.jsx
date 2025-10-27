@@ -46,10 +46,10 @@ const HeaderOne = () => {
                            <div className="tp-header-top-info">
                               <ul>
                                  <li>
-                                    <a href="https://maps.app.goo.gl/rnc4sH3kp3DWT6nV8" 
+                                    <a href="https://maps.app.goo.gl/7k4R9bFZFW65Jot49" 
                                     target="_blank"><span>
                                        <i className="fa-sharp fa-solid fa-location-dot"></i>
-                                       </span>184 High St N, London E6, UK</a>
+                                       </span>Suite C125, Greatorex Street, London, E1</a>
                                  </li>
                                  <li>
                                     <a href="mailto:info@rizcordixglobal.com"><span>

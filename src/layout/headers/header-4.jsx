@@ -67,9 +67,9 @@ const HeaderFour = () => {
                                 </div>
                                 <ul>
                                 <li>
-                                    <Link href="https://maps.app.goo.gl/rnc4sH3kp3DWT6nV8" target="_blank">
+                                    <Link href="https://maps.app.goo.gl/7k4R9bFZFW65Jot49" target="_blank">
                                         <span><i className="fa-sharp fa-solid fa-location-dot"></i></span>
-                                        184 High St N, London E6, UK
+                                        Suite C125, Greatorex Street, London, E1
                                     </Link>
                                 </li>
                                 <li>

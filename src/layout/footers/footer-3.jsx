@@ -15,8 +15,8 @@ const footer_content = {
     contact_text: "PERFECT SOLUTION From our Advisor",
     phone: "92 666 888 0000",
     info: <>Rizcordix Global Pvt Ltd is a premier digital service provider, specializing in creative and innovative solutions across design, development, and branding.</>,
-    map: "https://maps.app.goo.gl/rnc4sH3kp3DWT6nV8",
-    address: <>184 High St N<br /> London E6, UK</>,
+    map: "https://maps.app.goo.gl/7k4R9bFZFW65Jot49",
+    address: <>Suite C125, Greatorex Street,<br />London, E1</>,
     mail_2: "info@rizcordixglobal.com",
     mail_phone: <> info@rizcordixglobal.com <br /> +44 161 818 6442</>,
 

@@ -14,8 +14,8 @@ const brand_links = [
     "https://dsynex.com",
     "https://foskrift.com",
     "https://maqcorp.com",
-    "https://venturist.us",
-    "https://brand5.com"
+    "https://mediterranian-publishing.com",
+    "https://domyebook.com"
 ];
 
 // Map images and links together
