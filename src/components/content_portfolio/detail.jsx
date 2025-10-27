@@ -104,7 +104,7 @@ const PortfolioDetailsArea = () => {
                                 <span>
                                     <ContactIcon />
                                 </span>our address</h4>
-                                <p>184 High St N, London E6, UK</p>
+                                <p>Suite C125, Greatorex Street, London, E1</p>
                             </div>
                             <div className="tp-portfolio-details-info-mail">
                             <h4 className="tp-portfolio-details-info-title">

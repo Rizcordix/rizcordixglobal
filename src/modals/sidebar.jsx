@@ -78,7 +78,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen, home_three}) => {
                             <i className="fa-sharp fa-solid fa-location-dot"></i>
                             </div>
                             <div className="offcanvas__contact-content-content">
-                            <a href="https://maps.app.goo.gl/rnc4sH3kp3DWT6nV8">184 High St N, London E6</a>
+                            <a href="https://maps.app.goo.gl/7k4R9bFZFW65Jot49">Suite C125, Greatorex Street, London, E1</a>
                             </div>
                         </div>
                         <div className="offcanvas__contact-content d-flex">
