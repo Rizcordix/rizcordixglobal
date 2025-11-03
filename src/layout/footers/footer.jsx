@@ -18,7 +18,7 @@ const footer_content = {
     map: "https://maps.app.goo.gl/7k4R9bFZFW65Jot49",
     address: <>Suite C125, Greatorex Street,<br />London, E1</>,
     mail_2: "info@rizcordixglobal.com",
-    mail_phone: <> info@rizcordixglobal.com <br /> +44 161 818 6442</>,
+    mail_phone: <> info@rizcordixglobal.com <br /> +44 740 070 5723</>,
 
 
     service_links: [
@@ -112,7 +112,7 @@ const Footer = () => {
                                         </div>
                                         <div className="tp-footer-top-right-content">
                                             <p>{contact_text}</p>
-                                            <a href={`tel:${phone}`}>+44 161 818 6442</a>
+                                            <a href={`tel:${phone}`}>+44 740 070 5723</a>
                                         </div>
                                     </div>
                                 </div>
