@@ -48,7 +48,7 @@ const ContactArea = () => {
                                         <Phone size={32} color="#ffffff" />
                                     </div>
                                     <h4>Phone</h4>
-                                    <a className="orange" href="tel:+441618186442">+44 161 818 6442</a>
+                                    <a className="orange" href="tel:+447400705723">+44 740 070 5723</a>
                                 </div>
 
                                 <div className="contact-icon-box">

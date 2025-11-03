@@ -59,7 +59,7 @@ const HeaderThree = () => {
                         <div className="col-xl-10 col-xxl-8">
                             <div className="tp-header-3-top-info d-flex">
                                 <div className="tp-header-3-top-call d-flex">
-                                    <Link href="tel:+441618186442">
+                                    <Link href="tel:+447400705723">
                                 <span>Call</span>
                                 </Link>
                                 <p>Consult With IT Advisor? <a href="/calendly">Click Now</a></p>
@@ -115,7 +115,7 @@ const HeaderThree = () => {
                                 <div className="tp-header-3-right">
                                 <div className="tp-header-3-main-right d-flex align-items-center justify-content-end">
                                     <div className="tp-header-3-phone d-flex align-items-center" style={{ transform: 'translateX(-30px)' }}>
-                                        <Link href="tel:+441618186442">
+                                        <Link href="tel:+447400705723">
                                         <div className="tp-header-3-phone-icon">
                                             <Image src={call_icon} alt="theme-pure" />
                                         </div>

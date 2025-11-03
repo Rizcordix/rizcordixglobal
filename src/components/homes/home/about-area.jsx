@@ -179,9 +179,9 @@ const AboutArea = () => {
                                 </Swiper> 
 
                            <div className="tp-about-call">
-                              <a href="tel:+44 161 818 6442">
+                              <a href="tel:+44 740 070 5723">
                                  <p><i className="fa-solid fa-phone"></i> 
-                                 Provide IT services to hundreds customers <span>+44 161 818 6442</span></p>
+                                 Provide IT services to hundreds customers <span>+44 740 070 5723</span></p>
                               </a>
                            </div>
 

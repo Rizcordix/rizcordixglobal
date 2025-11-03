@@ -20,7 +20,7 @@ const footer_two_content = {
     google_map: "https://www.google.com/maps/place/254+Lillian+Blvd,+Holbrook,+NY+11741,+USA/@40.7937446,-73.0774993,17z/data=!3m1!4b1!4m5!3m4!1s0x89e8483b469d706f:0xa6841f8aafc2ef19!8m2!3d40.7937446!4d-73.0753106",
     about_us: <>The world’s first and largest digital marketplace <br /> for crypto collectibles and non-fungible tokens (NFTs). Buy</>,
     address: " 254 Lillian Blvd, Holbrook",
-    phone: "+44 161 818 6442",
+    phone: "+44 740 070 5723",
     email: "info@rizcordixglobal.com",
     footer_nav: [
         {title: "Home", link: "/"},
@@ -30,7 +30,7 @@ const footer_two_content = {
         {title: "Blog", link: "/blog"},
         {title: "contact", link: "/contact"},
     ],
-    mobile: "+44 161 818 6442",
+    mobile: "+44 740 070 5723",
 
 
 }

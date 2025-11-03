@@ -77,7 +77,7 @@ const HeaderTwo = () => {
                                           <i className="fa-solid fa-phone"></i>
                                        </div>
                                        <div className="tp-header-2-phone-content">
-                                          <span>Phone: <br /> <a href="tel:+441618186442">+44 161 818 6442</a></span>
+                                          <span>Phone: <br /> <a href="tel:+447400705723">+44 740 070 5723</a></span>
                                        </div>
                                     </div>
                                     <div className="tp-header-2-btn">

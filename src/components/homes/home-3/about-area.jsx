@@ -69,8 +69,9 @@ const AboutArea = ({about}) => {
                                 </h3> 
                             </div>
                             <p className="text">
-                                We are a full-service digital technology agency dedicated to helping businesses thrive in the digital landscape. With our blend of creativity and technical expertise, we craft solutions that engage audiences and drive results.
-                            </p>
+                                Rizcordix is a full-service digital technology agency founded by AliAsghar Murtaza, and Imran Zammarud with a shared vision of empowering businesses in the digital era. Since its inception, Rizcordix has combined creativity, innovation, and technical expertise to deliver impactful solutions that engage audiences and drive measurable results. At Rizcordix, our mission is to help brands thrive and stand out in the ever-evolving digital landscape.
+                                </p>
+
                             <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
                             <div className="tp-about-3-progressbar d-flex align-items-center">
                                 <div className="circular tl-progress"> 

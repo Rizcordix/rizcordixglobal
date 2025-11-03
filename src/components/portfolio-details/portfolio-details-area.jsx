@@ -126,7 +126,7 @@ const PortfolioDetailsArea = () => {
                                 </span>
                                 <div className="tp-portfolio-details-info-mail-text">
                                     <p>info@rizordix.com</p>
-                                    <p>+44 161 818 6442</p>
+                                    <p>+44 740 070 5723</p>
                                 </div>
                             </div>
                             </div>
