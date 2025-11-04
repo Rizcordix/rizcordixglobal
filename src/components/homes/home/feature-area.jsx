@@ -64,8 +64,8 @@ const FeatureArea = ({about}) => {
                <div className="row align-items-center">
                   <div className="col-lg-6">
                      <div className="tp-feature-title-wrapper">
-                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">7 Years</span>
-                           <span className="title-right-shape"> 
+                        <h3 className="tp-section-title" style={{fontSize: '34px'}}><span className="title-color">Rizcordix </span>Has Been Thriving For <span className="title-color">7 Years</span>
+                           <span className="title-left-shape"> 
                             <LineArrowFive />
                            </span>
                         </h3>

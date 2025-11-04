@@ -22,22 +22,23 @@ const slider_img = [
 
 const slider_text = [
     {
-        text: <>Their team completely transformed our brand voice and visuals. The content writing and branding work was precise, creative, and impactful.</>,
+        text: <>Rizcordix completely transformed our brand voice and visuals. Their content writing and branding work was precise, creative, and impactful.</>,
         name: "— Jacob Noah"
     },
     {
-        text: <>From design mockups to a fully responsive website, they handled everything flawlessly. The UI/UX was intuitive and exceeded our expectations.</>,
+        text: <>From design mockups to a fully responsive website, Rizcordix handled everything flawlessly. The UI/UX was intuitive and exceeded our expectations.</>,
         name: "— Heather Jonathan"
     },
     {
-        text: <>The animated video and pitch deck helped us grab investor attention instantly. Their visuals told our story better than words ever could.</>,
+        text: <>The animated video and pitch deck created by Rizcordix helped us grab investor attention instantly. Their visuals told our story better than words ever could.</>,
         name: "— Bryan Arthur"
     },
     {
-        text: <>They crafted a beautiful mobile app interface and helped us digitize our core services. Truly a reliable and creative team.</>,
+        text: <>Rizcordix crafted a beautiful mobile app interface and helped us digitize our core services. Truly a reliable and creative team.</>,
         name: "— David Chen"
     },
 ];
+
 
 const TestimonialArea = () => {
     const setting_img = {

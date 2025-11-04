@@ -15,7 +15,7 @@ import support_shape from "@assets/img/about/home-3/shape-1.png";
 const support_contact = {
    sub_title_1: "We’ve been here for",
    sub_title_2: " 7 years",
-   info: <>We deliver innovative digital, design, and content solutions <br /> to help businesses grow and stand out in a competitive world.</>,
+   info: <> Founded by AliAsghar Murtaza and Imran Zammarud, Rizcordix delivers innovative digital, design, and content solutions that help businesses grow and stand out in a competitive world. At Rizcordix, our founders&apos; vision drives every project we undertake, blending creativity and technology to achieve meaningful results. With Rizcordix, brands gain a trusted partner committed to turning ideas into impactful digital experiences.</>,
     lists: [
       <>Crafting compelling content and persuasive brand stories.</>,
       <>Designing stunning visuals, illustrations, and user experiences.</>,
