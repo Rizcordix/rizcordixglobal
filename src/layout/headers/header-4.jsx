@@ -66,12 +66,12 @@ const HeaderFour = () => {
                                 <p>Consult With IT Advisor? <a href="/calendly">Click Now</a></p>
                                 </div>
                                 <ul>
-                                <li>
+                                {/* <li>
                                     <Link href="https://maps.app.goo.gl/7k4R9bFZFW65Jot49" target="_blank">
                                         <span><i className="fa-sharp fa-solid fa-location-dot"></i></span>
-                                        Suite C125, Greatorex Street, London, E1
+                                        Suite C125, 4 - 6, Greatorex Street, London, UK, E1 5NF
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a href="mailto:info@rizcordixglobal.com"><span><i className="fa-solid fa-envelope"></i></span>info@rizcordixglobal.com</a>
                                 </li>

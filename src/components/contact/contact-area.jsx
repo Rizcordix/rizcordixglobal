@@ -56,7 +56,7 @@ const ContactArea = () => {
                                         <MapPin size={32} color="#ffffff" />
                                     </div>
                                     <h4>Office Location</h4>
-                                    <p>Suite C125, Greatorex Street,<br />London, E1</p>
+                                    <p>Suite C125, 4 - 6,<br />Greatorex Street, London,<br />UK, E1 5NF</p>
                                 </div>
 
                                 <div className="contact-icon-box">
