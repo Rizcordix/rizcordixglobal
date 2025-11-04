@@ -45,12 +45,12 @@ const HeaderOne = () => {
                         <div className="col-xxl-6 col-xl-8">
                            <div className="tp-header-top-info">
                               <ul>
-                                 <li>
+                                 {/* <li>
                                     <a href="https://maps.app.goo.gl/7k4R9bFZFW65Jot49" 
                                     target="_blank"><span>
                                        <i className="fa-sharp fa-solid fa-location-dot"></i>
-                                       </span>Suite C125, Greatorex Street, London, E1</a>
-                                 </li>
+                                       </span>Suite C125, 4 - 6, Greatorex Street, London, UK, E1 5NF</a>
+                                 </li> */}
                                  <li>
                                     <a href="mailto:info@rizcordixglobal.com"><span>
                                        <i className="fa-solid fa-envelope"></i></span>info@rizcordixglobal.com

@@ -10,13 +10,13 @@ import EmailAeroplan from '@/src/svg/email-aeroplan';
 import SocialLinks, { CopyRight } from '@/src/common/social-links';
 
 const footer_content = { 
-    contact_us: <> Contact us at <span>@RizcordixGlobal.com </span></>,
+    contact_us: <> Contact us at <span>info@RizcordixGlobal.com </span></>,
     mail: "info@rizcordixglobal.com",
     contact_text: "PERFECT SOLUTION From our Advisor",
     phone: "92 666 888 0000",
     info: <>Rizcordix Global Pvt Ltd is a premier digital service provider, specializing in creative and innovative solutions across design, development, and branding.</>,
     map: "https://maps.app.goo.gl/7k4R9bFZFW65Jot49",
-    address: <>Suite C125, Greatorex Street,<br />London, E1</>,
+    address: <>Suite C125, 4 - 6, Greatorex Street,<br />London, UK, E1 5NF</>,
     mail_2: "info@rizcordixglobal.com",
     mail_phone: <> info@rizcordixglobal.com <br /> +44 740 070 5723</>,
 
