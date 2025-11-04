@@ -55,7 +55,7 @@ const privacy_data = {
     },
     {
       title: "Your Rights",
-      content: "You have the right to access, correct, or delete the personal information we hold about you. If you wish to exercise any of these rights, please contact us at info@rizcordix.com."
+      content: "You have the right to access, correct, or delete the personal information we hold about you. If you wish to exercise any of these rights, please contact us at info@rizcordixglobal.com."
     },
     {
       title: "Changes to This Privacy Policy",
@@ -63,7 +63,7 @@ const privacy_data = {
     },
     {
       title: "Contact Us",
-      content: "If you have any questions about our Privacy Policy or how we handle your personal information, please contact us at info@rizcordix.com."
+      content: "If you have any questions about our Privacy Policy or how we handle your personal information, please contact us at info@rizcordixglobal.com."
     }
   ]
 }
@@ -143,8 +143,8 @@ const PrivacyPolicy = () => {
                   <div className="col-md-8">
                     <p className="tp-privacy-footer-text mb-0">
                       Your privacy is important to us. For any privacy-related concerns, contact us at{" "}
-                      <a href="mailto:info@rizcordix.com" className="tp-privacy-link">
-                        info@rizcordix.com
+                      <a href="mailto:info@rizcordixglobal.com" className="tp-privacy-link">
+                        info@rizcordixglobal.com
                       </a>
                     </p>
                   </div>

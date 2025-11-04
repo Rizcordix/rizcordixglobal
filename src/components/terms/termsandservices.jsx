@@ -120,8 +120,8 @@ const TermsAndConditions = () => {
                   <div className="col-md-8">
                     <p className="tp-terms-footer-text mb-0">
                       If you have any questions about these Terms and Conditions, please contact us at{" "}
-                      <a href="mailto:info@rizcordix.com" className="tp-terms-link">
-                        info@rizcordix.com
+                      <a href="mailto:info@rizcordixglobal.com" className="tp-terms-link">
+                        info@rizcordixglobal.com
                       </a>
                     </p>
                   </div>
