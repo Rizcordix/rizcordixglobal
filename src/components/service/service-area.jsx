@@ -33,11 +33,11 @@ const ServiceArea = () => {
                                     <Image src={item.img} alt="Rizcordix Global services" />
                                 </div>
                                 <h4 className="tp-service-breadcrumb-title">
-                                    <Link href="/service-details">{item.title}</Link>
+                                    <Link href={item.Link}>{item.title}</Link>
                                 </h4>
                                 <p>{item.description}</p>
                                 <div className="tp-service-btn">
-                                    <Link href="/service-details">
+                                    <Link href={item.Link}>
                                         Read More 
                                         <i className="fa-solid fa-arrow-up-right"></i>
                                     </Link>

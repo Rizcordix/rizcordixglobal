@@ -12,18 +12,19 @@ import service_details_thumb5 from  "@assets/img/services/service-details/illust
 import service_details_thumb6 from  "@assets/img/services/service-details/animation.jpg";
 import service_details_thumb7 from  "@assets/img/services/service-details/cloud.jpg";
 import service_details_thumb8 from  "@assets/img/services/service-details/ecommerce.jpg";
+import { useEffect } from 'react';
 
 const service_details_content = {
     service_details_tab: [
-        {id: 1, title: "Creative Content Writing"},
-        {id: 2, title: "Branding & Merchandising"},
-        {id: 3, title: "UI/UX Design & Web Development"},
-        {id: 4, title: "App Design & Development"},
-        {id: 5, title: "Graphic & Illustration Design"},
-        {id: 6, title: "Animation & Video Editing"},
-        {id: 7, title: "Data Backup & Cloud Solutions"},
-        {id: 8, title: "Web Design & E-commerce Solutions"},
-    ],
+    { id: 1, title: "Creative Content Writing", slug: "creative-content-writing" },
+    { id: 2, title: "Branding & Merchandising", slug: "branding-merchandising" },
+    { id: 3, title: "UI/UX Design & Web Development", slug: "uiux-web-development" },
+    { id: 4, title: "App Design & Development", slug: "app-design-development" },
+    { id: 5, title: "Graphic & Illustration Design", slug: "graphic-illustration" },
+    { id: 6, title: "Animation & Video Editing", slug: "animation-video" },
+    { id: 7, title: "Data Backup & Cloud Solutions", slug: "data-cloud" },
+    { id: 8, title: "Web Design & E-commerce Solutions", slug: "web-ecommerce" },
+  ],
     title: <>Digital Marketing</>,
     description: <>We offer comprehensive digital marketing strategies designed to increase your brand&apos;s online presence. Our services include SEO, social media marketing, and PPC management, all aimed at helping your business grow.</>,
     title_2: <>Why Marketing is Important?</>,
@@ -39,13 +40,55 @@ const service_details_content = {
 const {service_details_tab, title, description, title_2, description_2, feture_list, description_3} = service_details_content;
 
 const ServiceDetailsArea = () => {
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
+    const [isVideoOpen, setIsVideoOpen] = useState(false);
   const [activeTab, setActiveTab] = useState(1);
-  
+
+  // helper to find tab by slug or id
+  const findBySlug = (slug) => service_details_tab.find(t => t.slug === slug);
+  const findById = (id) => service_details_tab.find(t => t.id === id);
+
+  // When user clicks tab: prevent default, setActiveTab, update hash (no reload), and scroll
   const handleTabClick = (e, id) => {
-    e.preventDefault(); // Prevent default link behavior
+    e.preventDefault();
+    const tab = findById(id);
+    if (!tab) return;
     setActiveTab(id);
-  }
+    // update url hash without reloading
+    history.replaceState(null, '', `#${tab.slug}`);
+    // scroll to the details wrapper
+    setTimeout(() => {
+      const el = document.getElementById(`service-${tab.slug}`);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+  };
+
+  // On mount: if there's a hash, activate corresponding tab and scroll
+  useEffect(() => {
+    const hash = decodeURIComponent(window.location.hash || '').replace(/^#/, '');
+    if (hash) {
+      const tab = findBySlug(hash);
+      if (tab) {
+        setActiveTab(tab.id);
+        // small timeout to allow layout to settle before scrolling
+        setTimeout(() => {
+          const el = document.getElementById(`service-${hash}`);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 50);
+      }
+    }
+    // Also handle hash changes if someone manually changes it
+    const onHashChange = () => {
+      const newHash = decodeURIComponent(window.location.hash || '').replace(/^#/, '');
+      const newTab = findBySlug(newHash);
+      if (newTab) {
+        setActiveTab(newTab.id);
+        const el = document.getElementById(`service-${newHash}`);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    };
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
 
   const getTabContent = () => {
     switch(activeTab) {
@@ -187,10 +230,13 @@ const ServiceDetailsArea = () => {
     }
   }
 
+    // compute slug for current active tab (used for wrapper id)
+  const activeTabObj = findById(activeTab) || service_details_tab[0];
+  const activeSlug = activeTabObj?.slug || `tab-${activeTab}`;
   const {title: tabTitle, description: tabDescription, img, whyTitle, whyDescription, whyImage, features, finalDescription} = getTabContent();
 
   return (
-    <>
+  <>
       <section className="tp-service-details-area pt-120 pb-120">
         <div className="container">
           <div className="row">
@@ -199,11 +245,11 @@ const ServiceDetailsArea = () => {
                 <div className="tp-service-widget-item mb-40">
                   <div className="tp-service-widget-tab">
                     <ul>
-                      {service_details_tab.map((item, i) => 
+                      {service_details_tab.map((item, i) =>
                         <li key={i}>
-                          <a 
-                            className={activeTab === item.id ? "active" : ""} 
-                            href="#" 
+                          <a
+                            className={activeTab === item.id ? "active" : ""}
+                            href={`#${item.slug}`}
                             onClick={(e) => handleTabClick(e, item.id)}
                           >
                             {item.title} <i className="fa-regular fa-arrow-right-long"></i>
@@ -213,17 +259,18 @@ const ServiceDetailsArea = () => {
                     </ul>
                   </div>
                 </div>
-
               </div>
             </div>
 
             <div className="col-lg-8">
-              <div className="tp-service-details-wrapper">
+              {/* NOTE: id is set here so deep links can scroll to this wrapper */}
+              <div className="tp-service-details-wrapper" id={`service-${activeSlug}`}>
                 <div className="tp-service-details-thumb">
                   <Image src={img} alt="service-details" />
                 </div>
                 <h3 className="tp-service-details-title">{tabTitle}</h3>
                 <p>{tabDescription}</p>
+
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="tp-service-details-thumb">
@@ -235,36 +282,37 @@ const ServiceDetailsArea = () => {
                       <h3 className="tp-service-details-title">{whyTitle}</h3>
                       <p>{whyDescription}</p>
                       <ul>
-                        {features.map((item, i) => 
-                          <li key={i}><span><RightSymbol /></span>{item}</li> 
+                        {features.map((item, i) =>
+                          <li key={i}><span><RightSymbol /></span>{item}</li>
                         )}
                       </ul>
                     </div>
                   </div>
                 </div>
+
                 <p>{finalDescription}</p>
 
                 <div className="tp-service-details-faq faq-style-1">
                   <div className="tp-faq-tab-content tp-accordion">
                     <div className="accordion" id="general_accordion">
-                      {accordion.map((item, i) => 
+                      {accordion.map((item, i) =>
                         <div key={i} className={`accordion-item`}>
                           <h2 className="accordion-header" id={`heading${item.accordion_id}`}>
-                            <button 
-                              className={`accordion-button ${item.collapsed}`} 
-                              type="button" 
-                              data-bs-toggle="collapse" 
-                              data-bs-target={`#collapse${item.accordion_id}`} 
+                            <button
+                              className={`accordion-button ${item.collapsed}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target={`#collapse${item.accordion_id}`}
                               aria-expanded={item.aria_expanded}
                               aria-controls={`collapse${item.accordion_id}`}
                             >
                               {item.question}
                             </button>
                           </h2>
-                          <div 
-                            id={`collapse${item.accordion_id}`} 
-                            className={`accordion-collapse collapse ${item?.active && "show"}`} 
-                            aria-labelledby={`heading${item.accordion_id}`} 
+                          <div
+                            id={`collapse${item.accordion_id}`}
+                            className={`accordion-collapse collapse ${item?.active && "show"}`}
+                            aria-labelledby={`heading${item.accordion_id}`}
                             data-bs-parent="#general_accordion"
                           >
                             <div className="accordion-body">
@@ -284,7 +332,7 @@ const ServiceDetailsArea = () => {
       </section>
 
       {/* video modal start */}
-      <VideoPopup 
+      <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
         videoId={"csnD5EVL5z8"}

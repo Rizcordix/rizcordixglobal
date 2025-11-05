@@ -128,7 +128,7 @@ const ServiceArea = () => {
                                     </div>
                                     <p className="hide-text">{item.description}</p>
                                     <div className="tp-service-btn">
-                                       <Link href="/service-details">Read Out More 
+                                       <Link href={item.Link}>Read Out More 
                                           <i className="fa-solid fa-arrow-up-right"></i>
                                        </Link>
                                     </div>
@@ -143,7 +143,7 @@ const ServiceArea = () => {
                   <div className="row">
                      <div className="col-lg-12">
                         <div className="tp-service-all-btn text-center fadeUp">
-                           <Link className="tp-btn" href="/service-details">View all Services</Link>
+                           <Link className="tp-btn" href="/service">View all Services</Link>
                         </div>
                      </div>
                   </div>
