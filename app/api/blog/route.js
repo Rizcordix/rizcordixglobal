@@ -3,7 +3,7 @@ import { openDB } from '@/src/lib/db';
 export async function GET() {
   try {
     const db = await openDB();
-    const rows = await db.all('SELECT * FROM Blog ORDER BY BlogID DESC');
+    const rows = await db.all('SELECT * FROM Blog3 ORDER BY BlogID DESC');
 
     const blogs = rows.map((row) => ({
       ...row,
