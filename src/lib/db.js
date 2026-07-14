@@ -6,7 +6,7 @@ import { open } from 'sqlite';
 // Enable verbose logging (optional)
 sqlite3.verbose();
 
-const dbFilePath = process.cwd() + '/rizcordix.db';
+const dbFilePath = process.cwd() + '/domyebook.db';
 
 export async function openDB() {
   return open({
